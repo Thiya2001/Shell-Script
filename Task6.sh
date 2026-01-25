@@ -1,0 +1,2 @@
+echo "USER : $USER"
+echo "CURRENT DIRECTORY : $PWD"

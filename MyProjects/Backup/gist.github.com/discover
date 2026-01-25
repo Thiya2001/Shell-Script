@@ -1,0 +1,2033 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html
+  lang="en"
+  
+  data-color-mode="auto" data-light-theme="light" data-dark-theme="dark"
+  data-a11y-animated-images="system" data-a11y-link-underlines="true"
+  
+  >
+
+
+
+
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://github.githubassets.com">
+  <link rel="dns-prefetch" href="https://avatars.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+  <link rel="preconnect" href="https://github.githubassets.com" crossorigin>
+  <link rel="preconnect" href="https://avatars.githubusercontent.com">
+
+  
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/light-ed267010f0fd.css" /><link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/light_high_contrast-10b9c3f955b4.css" /><link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/dark-d3098415e72c.css" /><link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/dark_high_contrast-e94641a4eb03.css" /><link data-color-theme="light" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light-ed267010f0fd.css" /><link data-color-theme="light_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_high_contrast-10b9c3f955b4.css" /><link data-color-theme="light_colorblind" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_colorblind-c8c8a9cc25f5.css" /><link data-color-theme="light_colorblind_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_colorblind_high_contrast-a0b73ff662c4.css" /><link data-color-theme="light_tritanopia" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_tritanopia-74105448305a.css" /><link data-color-theme="light_tritanopia_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_tritanopia_high_contrast-7323dfce7336.css" /><link data-color-theme="dark" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark-d3098415e72c.css" /><link data-color-theme="dark_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_high_contrast-e94641a4eb03.css" /><link data-color-theme="dark_colorblind" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_colorblind-605c9c5b0b66.css" /><link data-color-theme="dark_colorblind_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_colorblind_high_contrast-fd384df30a62.css" /><link data-color-theme="dark_tritanopia" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_tritanopia-31e96e75f2d7.css" /><link data-color-theme="dark_tritanopia_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_tritanopia_high_contrast-a2034b9ba805.css" /><link data-color-theme="dark_dimmed" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_dimmed-caccea9fb1fe.css" /><link data-color-theme="dark_dimmed_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_dimmed_high_contrast-7f16680fc22b.css" />
+
+  <style type="text/css">
+    :root {
+      --tab-size-preference: 4;
+    }
+
+    pre, code {
+      tab-size: var(--tab-size-preference);
+    }
+  </style>
+
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-primitives-44fb318796c9.css" />
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-8ee1b7f5a0e8.css" />
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/global-c651babb5642.css" />
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/github-e1e3b6ab1f72.css" />
+  
+
+  
+
+  <script type="application/json" id="client-env">{"locale":"en","featureFlags":["a11y_status_checks_ruleset","actions_custom_images_public_preview_visibility","actions_custom_images_storage_billing_ui_visibility","actions_enable_snapshot_keyword","actions_image_version_event","actions_workflow_language_service","allow_react_navs_in_turbo","alternate_user_config_repo","api_insights_show_missing_data_banner","arianotify_comprehensive_migration","arianotify_partial_migration","codespaces_prebuild_region_target_update","coding_agent_model_selection","contentful_lp_footnotes","copilot_3p_agent_hovercards","copilot_agent_cli_public_preview","copilot_agent_sessions_alive_updates","copilot_agent_task_list_v2","copilot_agent_tasks_btn_code_nav","copilot_agent_tasks_btn_code_view","copilot_agent_tasks_btn_code_view_lines","copilot_agent_tasks_btn_repo","copilot_api_agentic_issue_marshal_yaml","copilot_api_draft_issue_reference_with_project_id","copilot_chat_agents_empty_state","copilot_chat_attach_multiple_images","copilot_chat_clear_model_selection_for_default_change","copilot_chat_file_redirect","copilot_chat_input_commands","copilot_chat_opening_thread_switch","copilot_chat_reduce_quota_checks","copilot_chat_search_bar_redirect","copilot_chat_selection_attachments","copilot_chat_vision_in_claude","copilot_chat_vision_preview_gate","copilot_coding_agent_task_response","copilot_custom_copilots","copilot_custom_copilots_feature_preview","copilot_duplicate_thread","copilot_extensions_hide_in_dotcom_chat","copilot_extensions_removal_on_marketplace","copilot_features_raycast_logo","copilot_file_block_ref_matching","copilot_ftp_hyperspace_upgrade_prompt","copilot_icebreakers_experiment_dashboard","copilot_icebreakers_experiment_hyperspace","copilot_immersive_draft_issue_persist_edited_issues_in_session","copilot_immersive_generate_thread_name_async","copilot_immersive_job_result_preview","copilot_immersive_structured_model_picker","copilot_immersive_task_hyperlinking","copilot_immersive_task_within_chat_thread","copilot_org_policy_page_focus_mode","copilot_redirect_header_button_to_agents","copilot_security_alert_assignee_options","copilot_share_active_subthread","copilot_spaces_ga","copilot_spaces_individual_policies_ga","copilot_spaces_public_access_to_user_owned_spaces","copilot_spaces_read_access_to_user_owned_spaces","copilot_spaces_report_abuse","copilot_spark_empty_state","copilot_spark_handle_nil_friendly_name","copilot_spark_loading_webgl","copilot_stable_conversation_view","copilot_swe_agent_progress_commands","copilot_swe_agent_use_subagents","copilot_unconfigured_is_inherited","dashboard_lists_max_age_filter","dashboard_universe_2025_feedback_dialog","dom_node_counts","dotcom_chat_client_side_skills","enterprise_ai_controls","failbot_report_error_react_apps_on_page","fetch_graphql_ignore_fetch_network_errors","fetch_graphql_improved_error_serialization","flex_cta_groups_mvp","global_nav_react_edit_status_dialog","global_nav_react_feature_preview","global_nav_react_teams_settings_page","global_nav_react_top_repos_api_caching","hyperspace_2025_logged_out_batch_1","initial_per_page_pagination_updates","issue_fields_global_search","issue_fields_report_usage","issue_fields_timeline_events","issues_cca_assign_actor_with_agent","issues_check_is_repository_writable","issues_expanded_file_types","issues_lazy_load_comment_box_suggestions","issues_preheating_dependency_issues","issues_preheating_issue_row","issues_preheating_parent_issue","issues_preheating_secondary","issues_preheating_sub_issues","issues_preheating_timeline_issues","issues_react_bots_timeline_pagination","issues_react_chrome_container_query_fix","issues_react_client_side_caching_analytics","issues_react_extended_preheat_analytics","issues_react_label_picker_debounce_filter","issues_react_labelpicker_patch","issues_react_prohibit_title_fallback","issues_react_use_turbo_for_cross_repo_navigation","issues_report_sidebar_interactions","lifecycle_label_name_updates","marketing_pages_search_explore_provider","memex_default_issue_create_repository","memex_grouped_by_edit_route","memex_mwl_filter_field_delimiter","mission_control_retry_on_401","mission_control_safe_token_clearing","mission_control_use_body_html","open_agent_session_in_vscode_insiders","open_agent_session_in_vscode_stable","projects_assignee_max_limit","react_fetch_graphql_ignore_expected_errors","react_profile_user_status_dialog_enabled","render_user_display_name","repos_insights_remove_new_url","ruleset_deletion_confirmation","sample_network_conn_type","scheduled_reminders_updated_limits","site_calculator_actions_2025","site_features_copilot_universe","site_homepage_collaborate_video","site_homepage_contentful","site_homepage_eyebrow_banner","site_homepage_universe_animations","site_msbuild_webgl_hero","spark_prompt_secret_scanning","swe_agent_member_requests","viewscreen_sandbox","webp_support","workbench_store_readonly"],"copilotApiOverrideUrl":"https://api.githubcopilot.com"}</script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/high-contrast-cookie-f0d14ee0f259.js"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/wp-runtime-6c8558d42d1c.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/78298-6ded1080d9d7.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/6488-34dfb9dc15f3.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/environment-8074be629a93.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/97068-63f6249035ef.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/43784-de32c2f551b6.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/4712-bb54bd65fb86.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/81028-f73c255834fd.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/97292-c434707d60d8.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/99408-f2635e8be626.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/78143-4a24663acc6e.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/62598-b36df79de74f.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/github-elements-d9a423df79d2.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/element-registry-c0b26f1f2adf.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/react-core-4fe1ee435edb.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/react-lib-01d71e17439d.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/28546-5b811f98f90b.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/17688-50e66e0f8d74.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/15938-f489d510ed6a.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/70191-c0131f5eda6e.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/7332-c4fd7fd5059a.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/3561-ed24ee7d976d.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/19980-10afc20eac18.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/51519-4d94d09c8e7f.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/27376-fa2f4f832282.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/96384-bf4cfe30c3c3.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/19718-b4b310ce9bd0.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/behaviors-ac6d1c693d6c.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/37911-d5f1403e4610.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/notifications-global-adf37499b80b.js" defer="defer"></script>
+  
+  <script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/5017-3d63103f40c4.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/55526-5de9aab2861b.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/gist-360e493f78cd.js" defer="defer"></script>
+
+
+  <title>Discover gists · GitHub</title>
+
+
+
+  <meta name="route-pattern" content="/discover(.:format)" data-turbo-transient>
+  <meta name="route-controller" content="gists_listings" data-turbo-transient>
+  <meta name="route-action" content="discover" data-turbo-transient>
+  <meta name="fetch-nonce" content="v2:d1516312-a6ff-b219-5f43-67b5d256b3d7">
+
+    
+  <meta name="current-catalog-service-hash" content="56253a530ab9027b25719525dcbe6007461a3202218f6f5dfce5a601c121cbcb">
+
+
+  <meta name="request-id" content="DC21:2C454B:135076B:162D2DB:696781AD" data-pjax-transient="true"/><meta name="html-safe-nonce" content="73aac27b36e34b17d44a0c62d13ae1738bd2b7a9a3bac9a330cb5d660d49d9b3" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2lzdC5naXRodWIuY29tL3N2YWdpb25pdGlzLzIzOThjZTZjNTM3YTYwZmQwOTY3N2E4MGJlNTBmZDkwIiwicmVxdWVzdF9pZCI6IkRDMjE6MkM0NTRCOjEzNTA3NkI6MTYyRDJEQjo2OTY3ODFBRCIsInZpc2l0b3JfaWQiOiI4MzkyNjYxMzA3MTcwMTY0NzkiLCJyZWdpb25fZWRnZSI6ImNlbnRyYWxpbmRpYSIsInJlZ2lvbl9yZW5kZXIiOiJjZW50cmFsaW5kaWEifQ==" data-pjax-transient="true"/><meta name="visitor-hmac" content="6eb1b62a36fe977065d145ebb92d0b901c8469b40f808f525594b6aff38270fc" data-pjax-transient="true"/>
+
+
+
+
+  <meta name="github-keyboard-shortcuts" content="copilot" data-turbo-transient="true" />
+  
+
+  <meta name="selected-link" value="/discover" data-turbo-transient>
+  <link rel="assets" href="https://github.githubassets.com/">
+
+    <meta name="google-site-verification" content="Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I">
+
+<meta name="octolytics-url" content="https://collector.github.com/github/collect" />
+
+  <meta name="analytics-location" content="/discover" data-turbo-transient="true" />
+
+  
+
+
+
+
+    <meta name="user-login" content="">
+
+  
+
+    <meta name="viewport" content="width=device-width">
+
+    
+
+      <meta name="description" content="GitHub Gist: instantly share code, notes, and snippets.">
+
+      <link rel="search" type="application/opensearchdescription+xml" href="/opensearch-gist.xml" title="Gist">
+
+    <link rel="fluid-icon" href="https://gist.github.com/fluidicon.png" title="GitHub">
+    <meta property="fb:app_id" content="1401488693436528">
+    <meta name="apple-itunes-app" content="app-id=1477376905, app-argument=https://gist.github.com/discover" />
+
+      <meta name="twitter:image" content="https://github.com/opengraph.png" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="Discover gists" /><meta name="twitter:description" content="GitHub Gist: instantly share code, notes, and snippets." />
+  <meta property="og:image" content="https://github.com/opengraph.png" /><meta property="og:image:alt" content="GitHub Gist: instantly share code, notes, and snippets." /><meta property="og:site_name" content="Gist" /><meta property="og:type" content="website" /><meta property="og:title" content="Discover gists" /><meta property="og:description" content="GitHub Gist: instantly share code, notes, and snippets." />
+  
+
+
+
+
+      <meta name="hostname" content="gist.github.com">
+
+
+
+        <meta name="expected-hostname" content="gist.github.com">
+
+
+  <meta http-equiv="x-pjax-version" content="119b80f65efafef7a115940c9f4c2cda02f76bf06e4f9d9e6f1273962f548c18" data-turbo-track="reload">
+  <meta http-equiv="x-pjax-csp-version" content="21a43568025709b66240454fc92d4f09335a96863f8ab1c46b4a07f6a5b67102" data-turbo-track="reload">
+  <meta http-equiv="x-pjax-css-version" content="225aba27fbd9788f124e64e84860360a762efd8031870b15934ffc05b6b826f5" data-turbo-track="reload">
+  <meta http-equiv="x-pjax-js-version" content="6b736dab3b1cb32b840382be1762afdf3021b562e4c86a5d1b114281eed1cafc" data-turbo-track="reload">
+
+  <meta name="turbo-cache-control" content="no-preview" data-turbo-transient="">
+
+        <link rel="alternate" title="atom" type="application/atom+xml">
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/gist-8c2432fd9b79.css" />
+
+
+
+
+    <meta name="turbo-body-classes" content="logged-out env-production page-responsive">
+  <meta name="disable-turbo" content="false">
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <meta name="release" content="7254d2220a56c4be46c26807981003fb3107f7ef">
+  <meta name="ui-target" content="full">
+
+  <link rel="mask-icon" href="https://github.githubassets.com/assets/pinned-octocat-093da3e6fa40.svg" color="#000000">
+  <link rel="alternate icon" class="js-site-favicon" type="image/png" href="https://github.githubassets.com/favicons/favicon.png">
+  <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg" data-base-href="https://github.githubassets.com/favicons/favicon">
+
+<meta name="theme-color" content="#1e2327">
+<meta name="color-scheme" content="light dark" />
+
+
+
+  </head>
+
+  <body class="logged-out env-production page-responsive" style="word-wrap: break-word;" >
+    <div data-turbo-body class="logged-out env-production page-responsive" style="word-wrap: break-word;" >
+      <div id="__primerPortalRoot__" role="region" style="z-index: 1000; position: absolute; width: 100%;" data-turbo-permanent></div>
+      
+
+
+
+    <div class="position-relative header-wrapper js-header-wrapper ">
+      <a href="#start-of-content" data-skip-target-assigned="false" class="px-2 py-4 color-bg-accent-emphasis color-fg-on-emphasis show-on-focus js-skip-to-content">Skip to content</a>
+
+      <span data-view-component="true" class="progress-pjax-loader Progress position-fixed width-full">
+    <span style="width: 0%;" data-view-component="true" class="Progress-item progress-pjax-loader-bar left-0 top-0 color-bg-accent-emphasis"></span>
+</span>      
+      
+      <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-react.1bdd400df1a51e471896.module.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/keyboard-shortcuts-dialog.bd09823f671f1a7dd3f2.module.css" />
+
+<react-partial
+  partial-name="keyboard-shortcuts-dialog"
+  data-ssr="false"
+  data-attempted-ssr="false"
+  data-react-profiling="false"
+>
+  
+  <script type="application/json" data-target="react-partial.embeddedData">{"props":{"docsUrl":"https://docs.github.com/get-started/accessibility/keyboard-shortcuts"}}</script>
+  <div data-target="react-partial.reactRoot"></div>
+</react-partial>
+
+
+
+
+
+      
+
+            <div class="Header js-details-container Details flex-wrap flex-md-nowrap p-responsive" role="banner" >
+  <div class="Header-item d-none d-md-flex">
+    <a class="Header-link" data-hotkey="g d" aria-label="Gist Homepage " style="--focus-outlineColor: #fff;" href="/">
+  <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-mark-github v-align-middle d-inline-block d-md-none">
+    <path d="M12 1C5.923 1 1 5.923 1 12c0 4.867 3.149 8.979 7.521 10.436.55.096.756-.233.756-.522 0-.262-.013-1.128-.013-2.049-2.764.509-3.479-.674-3.699-1.292-.124-.317-.66-1.293-1.127-1.554-.385-.207-.936-.715-.014-.729.866-.014 1.485.797 1.691 1.128.99 1.663 2.571 1.196 3.204.907.096-.715.385-1.196.701-1.471-2.448-.275-5.005-1.224-5.005-5.432 0-1.196.426-2.186 1.128-2.956-.111-.275-.496-1.402.11-2.915 0 0 .921-.288 3.024 1.128a10.193 10.193 0 0 1 2.75-.371c.936 0 1.871.123 2.75.371 2.104-1.43 3.025-1.128 3.025-1.128.605 1.513.221 2.64.111 2.915.701.77 1.127 1.747 1.127 2.956 0 4.222-2.571 5.157-5.019 5.432.399.344.743 1.004.743 2.035 0 1.471-.014 2.654-.014 3.025 0 .289.206.632.756.522C19.851 20.979 23 16.854 23 12c0-6.077-4.922-11-11-11Z"></path>
+</svg>
+  <svg aria-hidden="true" height="24" viewBox="0 0 68 24" version="1.1" width="68" data-view-component="true" class="octicon octicon-logo-github v-align-middle d-none d-md-inline-block">
+    <path d="M27.8 17.908h-.03c.013 0 .022.014.035.017l.01-.002-.016-.015Zm.005.017c-.14.001-.49.073-.861.073-1.17 0-1.575-.536-1.575-1.234v-4.652h2.385c.135 0 .24-.12.24-.283V9.302c0-.133-.12-.252-.24-.252H25.37V5.913c0-.119-.075-.193-.21-.193h-3.24c-.136 0-.21.074-.21.193V9.14s-1.636.401-1.741.416a.255.255 0 0 0-.195.253v2.021c0 .164.12.282.255.282h1.665v4.876c0 3.627 2.55 3.998 4.29 3.998.796 0 1.756-.252 1.906-.327.09-.03.135-.134.135-.238v-2.23a.264.264 0 0 0-.219-.265Zm35.549-3.272c0-2.69-1.095-3.047-2.25-2.928-.9.06-1.62.505-1.62.505v5.232s.735.506 1.83.536c1.545.044 2.04-.506 2.04-3.345ZM67 14.415c0 5.099-1.665 6.555-4.576 6.555-2.46 0-3.78-1.233-3.78-1.233s-.06.683-.135.773c-.045.089-.12.118-.21.118h-2.22c-.15 0-.286-.119-.286-.252l.03-16.514a.26.26 0 0 1 .255-.252h3.196a.26.26 0 0 1 .255.252v5.604s1.23-.788 3.03-.788l-.015-.03c1.8 0 4.456.67 4.456 5.767ZM53.918 9.05h-3.15c-.165 0-.255.119-.255.282v8.086s-.826.58-1.95.58c-1.126 0-1.456-.506-1.456-1.62v-7.06a.262.262 0 0 0-.255-.254h-3.21a.262.262 0 0 0-.256.253v7.596c0 3.27 1.846 4.087 4.381 4.087 2.085 0 3.78-1.145 3.78-1.145s.076.58.12.67c.03.074.136.133.24.133h2.011a.243.243 0 0 0 .255-.253l.03-11.103c0-.133-.12-.252-.285-.252Zm-35.556-.015h-3.195c-.135 0-.255.134-.255.297v10.91c0 .297.195.401.45.401h2.88c.3 0 .375-.134.375-.401V9.287a.262.262 0 0 0-.255-.252ZM16.787 4.01c-1.155 0-2.07.907-2.07 2.051 0 1.145.915 2.051 2.07 2.051a2.04 2.04 0 0 0 2.04-2.05 2.04 2.04 0 0 0-2.04-2.052Zm24.74-.372H38.36a.262.262 0 0 0-.255.253v6.08H33.14v-6.08a.262.262 0 0 0-.255-.253h-3.196a.262.262 0 0 0-.255.253v16.514c0 .133.135.252.255.252h3.196a.262.262 0 0 0 .255-.253v-7.06h4.966l-.03 7.06c0 .134.12.253.255.253h3.195a.262.262 0 0 0 .255-.253V3.892a.262.262 0 0 0-.255-.253Zm-28.31 7.313v8.532c0 .06-.015.163-.09.193 0 0-1.875 1.323-4.966 1.323C4.426 21 0 19.84 0 12.2S3.87 2.986 7.651 3c3.27 0 4.59.728 4.8.862.06.075.09.134.09.208l-.63 2.646c0 .134-.134.297-.3.253-.54-.164-1.35-.49-3.255-.49-2.205 0-4.575.623-4.575 5.543s2.25 5.5 3.87 5.5c1.38 0 1.875-.164 1.875-.164V13.94H7.321c-.165 0-.285-.12-.285-.253v-2.735c0-.134.12-.252.285-.252h5.61c.166 0 .286.118.286.252Z"></path>
+</svg>
+  <svg aria-hidden="true" height="24" viewBox="0 0 38 24" version="1.1" width="38" data-view-component="true" class="octicon octicon-logo-gist v-align-middle d-none d-md-inline-block">
+    <path d="M7.05 13.095v-1.5h5.28v8.535c-1.17.555-2.925.96-5.385.96C1.665 21.09 0 17.055 0 12.045S1.695 3 6.945 3c2.43 0 3.96.495 4.92.99v1.575c-1.83-.75-3-1.095-4.92-1.095-3.855 0-5.22 3.315-5.22 7.59s1.365 7.575 5.205 7.575c1.335 0 2.97-.105 3.795-.51v-6.03H7.05Zm16.47 1.035h.045c3.33.3 4.125 1.425 4.125 3.345 0 1.815-1.14 3.615-4.71 3.615-1.125 0-2.745-.285-3.495-.585v-1.41c.705.255 1.83.54 3.495.54 2.43 0 3.09-1.035 3.09-2.13 0-1.065-.33-1.815-2.655-2.01-3.39-.3-4.095-1.5-4.095-3.12 0-1.665 1.08-3.465 4.38-3.465 1.095 0 2.34.135 3.375.585v1.41c-.915-.3-1.83-.54-3.405-.54-2.325 0-2.82.855-2.82 2.01 0 1.035.42 1.56 2.67 1.755Zm12.87-4.995v1.275h-3.63v7.305c0 1.425.795 2.01 2.25 2.01.3 0 .63 0 .915-.045v1.335c-.255.045-.75.075-1.035.075-1.965 0-3.75-.9-3.75-3.195v-7.5H28.8v-.72l2.34-.66V5.85l1.62-.465v3.75h3.63ZM16.635 9.09v9.615c0 .81.285 1.05 1.005 1.05v1.335c-1.71 0-2.58-.705-2.58-2.58V9.09h1.575Zm.375-3.495c0 .66-.51 1.17-1.17 1.17a1.14 1.14 0 0 1-1.155-1.17c0-.66.48-1.17 1.155-1.17s1.17.51 1.17 1.17Z"></path>
+</svg>
+</a>
+
+
+  </div>
+
+  <div class="Header-item d-md-none">
+      <button aria-label="Toggle navigation" aria-expanded="false" type="button" data-view-component="true" class="Header-link js-details-target btn-link">    <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-three-bars">
+    <path d="M3.75 5.25a.75.75 0 0 0 0 1.5h16.5a.75.75 0 0 0 0-1.5H3.75Zm0 6a.75.75 0 0 0 0 1.5h16.5a.75.75 0 0 0 0-1.5H3.75Zm0 6a.75.75 0 0 0 0 1.5h16.5a.75.75 0 0 0 0-1.5H3.75Z"></path>
+</svg>
+</button>  </div>
+
+  <div class="Header-item Header-item--full js-site-search flex-column flex-md-row width-full flex-order-2 flex-md-order-none mr-0 mr-md-3 mt-3 mt-md-0 Details-content--hidden-not-important d-md-flex">
+      <div class="header-search flex-self-stretch flex-md-self-auto mr-0 mr-md-3 mb-3 mb-md-0">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-turbo="false" action="/search" accept-charset="UTF-8" method="get">
+    <div class="d-flex">
+        <primer-text-field class="FormControl width-full FormControl--fullWidth">
+      <label class="sr-only FormControl-label" for="q">
+        Search Gists
+</label>    
+  <div class="FormControl-input-wrap">
+    
+      <input placeholder="Search..." aria-describedby="validation-04010732-4f70-4159-9248-ccac47c8a42f" data-target="primer-text-field.inputElement " class="form-control FormControl-input FormControl-medium rounded-right-0" type="text" name="q" id="q" />
+</div>
+      <div class="FormControl-inlineValidation" id="validation-04010732-4f70-4159-9248-ccac47c8a42f" hidden="hidden">
+  <span class="FormControl-inlineValidation--visual" data-target="primer-text-field.validationSuccessIcon" hidden><svg aria-hidden="true" height="12" viewBox="0 0 12 12" version="1.1" width="12" data-view-component="true" class="octicon octicon-check-circle-fill">
+    <path d="M6 0a6 6 0 1 1 0 12A6 6 0 0 1 6 0Zm-.705 8.737L9.63 4.403 8.392 3.166 5.295 6.263l-1.7-1.702L2.356 5.8l2.938 2.938Z"></path>
+</svg></span>
+  <span class=" FormControl-inlineValidation--visual" data-target="primer-text-field.validationErrorIcon"><svg aria-hidden="true" height="12" viewBox="0 0 12 12" version="1.1" width="12" data-view-component="true" class="octicon octicon-alert-fill">
+    <path d="M4.855.708c.5-.896 1.79-.896 2.29 0l4.675 8.351a1.312 1.312 0 0 1-1.146 1.954H1.33A1.313 1.313 0 0 1 .183 9.058ZM7 7V3H5v4Zm-1 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"></path>
+</svg></span>
+  <span></span>
+</div>
+    
+</primer-text-field>
+      <button id="icon-button-42dd4d72-1b4a-40fc-af7e-548eb331de22" aria-labelledby="tooltip-dbc0c401-50ba-42ba-98ff-9bd267656fc6" type="submit" data-view-component="true" class="Button Button--iconOnly Button--secondary Button--medium rounded-left-0">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-search Button-visual">
+    <path d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"></path>
+</svg>
+</button><tool-tip id="tooltip-dbc0c401-50ba-42ba-98ff-9bd267656fc6" for="icon-button-42dd4d72-1b4a-40fc-af7e-548eb331de22" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Search Gists</tool-tip>
+
+</form>    </div>
+</div>
+
+
+    <nav aria-label="Global" class="d-flex flex-column flex-md-row flex-self-stretch flex-md-self-auto">
+  <a class="Header-link mr-0 mr-md-3 py-2 py-md-0 border-top border-md-top-0 border-white-fade" data-ga-click="Header, go to all gists, text:all gists" href="/discover">All gists</a>
+
+  <a class="Header-link mr-0 mr-md-3 py-2 py-md-0 border-top border-md-top-0 border-white-fade" data-ga-click="Header, go to GitHub, text:Back to GitHub" href="https://github.com">Back to GitHub</a>
+
+    <a class="Header-link d-block d-md-none mr-0 mr-md-3 py-2 py-md-0 border-top border-md-top-0 border-white-fade" data-ga-click="Header, sign in" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;gist header&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://gist.github.com/discover&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="0278b089e881ea6f98d2ccdde163d896cb3d01ed943f7d31930a850d33e3e1a0" href="https://gist.github.com/auth/github?return_to=https%3A%2F%2Fgist.github.com%2Fdiscover">
+      Sign in
+</a>
+      <a class="Header-link d-block d-md-none mr-0 mr-md-3 py-2 py-md-0 border-top border-md-top-0 border-white-fade" data-ga-click="Header, sign up" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;gist header&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://gist.github.com/discover&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2e1a08c04abe9542ccb7045aa69ba83a9fb34f0b34e08608752b36058a7e9b2a" href="/join?return_to=https%3A%2F%2Fgist.github.com%2Fdiscover&amp;source=header-gist">
+        Sign up
+</a></nav>
+
+  </div>
+
+  <div class="Header-item Header-item--full flex-justify-center d-md-none position-relative">
+    <a class="Header-link" data-hotkey="g d" aria-label="Gist Homepage " style="--focus-outlineColor: #fff;" href="/">
+  <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-mark-github v-align-middle d-inline-block d-md-none">
+    <path d="M12 1C5.923 1 1 5.923 1 12c0 4.867 3.149 8.979 7.521 10.436.55.096.756-.233.756-.522 0-.262-.013-1.128-.013-2.049-2.764.509-3.479-.674-3.699-1.292-.124-.317-.66-1.293-1.127-1.554-.385-.207-.936-.715-.014-.729.866-.014 1.485.797 1.691 1.128.99 1.663 2.571 1.196 3.204.907.096-.715.385-1.196.701-1.471-2.448-.275-5.005-1.224-5.005-5.432 0-1.196.426-2.186 1.128-2.956-.111-.275-.496-1.402.11-2.915 0 0 .921-.288 3.024 1.128a10.193 10.193 0 0 1 2.75-.371c.936 0 1.871.123 2.75.371 2.104-1.43 3.025-1.128 3.025-1.128.605 1.513.221 2.64.111 2.915.701.77 1.127 1.747 1.127 2.956 0 4.222-2.571 5.157-5.019 5.432.399.344.743 1.004.743 2.035 0 1.471-.014 2.654-.014 3.025 0 .289.206.632.756.522C19.851 20.979 23 16.854 23 12c0-6.077-4.922-11-11-11Z"></path>
+</svg>
+  <svg aria-hidden="true" height="24" viewBox="0 0 68 24" version="1.1" width="68" data-view-component="true" class="octicon octicon-logo-github v-align-middle d-none d-md-inline-block">
+    <path d="M27.8 17.908h-.03c.013 0 .022.014.035.017l.01-.002-.016-.015Zm.005.017c-.14.001-.49.073-.861.073-1.17 0-1.575-.536-1.575-1.234v-4.652h2.385c.135 0 .24-.12.24-.283V9.302c0-.133-.12-.252-.24-.252H25.37V5.913c0-.119-.075-.193-.21-.193h-3.24c-.136 0-.21.074-.21.193V9.14s-1.636.401-1.741.416a.255.255 0 0 0-.195.253v2.021c0 .164.12.282.255.282h1.665v4.876c0 3.627 2.55 3.998 4.29 3.998.796 0 1.756-.252 1.906-.327.09-.03.135-.134.135-.238v-2.23a.264.264 0 0 0-.219-.265Zm35.549-3.272c0-2.69-1.095-3.047-2.25-2.928-.9.06-1.62.505-1.62.505v5.232s.735.506 1.83.536c1.545.044 2.04-.506 2.04-3.345ZM67 14.415c0 5.099-1.665 6.555-4.576 6.555-2.46 0-3.78-1.233-3.78-1.233s-.06.683-.135.773c-.045.089-.12.118-.21.118h-2.22c-.15 0-.286-.119-.286-.252l.03-16.514a.26.26 0 0 1 .255-.252h3.196a.26.26 0 0 1 .255.252v5.604s1.23-.788 3.03-.788l-.015-.03c1.8 0 4.456.67 4.456 5.767ZM53.918 9.05h-3.15c-.165 0-.255.119-.255.282v8.086s-.826.58-1.95.58c-1.126 0-1.456-.506-1.456-1.62v-7.06a.262.262 0 0 0-.255-.254h-3.21a.262.262 0 0 0-.256.253v7.596c0 3.27 1.846 4.087 4.381 4.087 2.085 0 3.78-1.145 3.78-1.145s.076.58.12.67c.03.074.136.133.24.133h2.011a.243.243 0 0 0 .255-.253l.03-11.103c0-.133-.12-.252-.285-.252Zm-35.556-.015h-3.195c-.135 0-.255.134-.255.297v10.91c0 .297.195.401.45.401h2.88c.3 0 .375-.134.375-.401V9.287a.262.262 0 0 0-.255-.252ZM16.787 4.01c-1.155 0-2.07.907-2.07 2.051 0 1.145.915 2.051 2.07 2.051a2.04 2.04 0 0 0 2.04-2.05 2.04 2.04 0 0 0-2.04-2.052Zm24.74-.372H38.36a.262.262 0 0 0-.255.253v6.08H33.14v-6.08a.262.262 0 0 0-.255-.253h-3.196a.262.262 0 0 0-.255.253v16.514c0 .133.135.252.255.252h3.196a.262.262 0 0 0 .255-.253v-7.06h4.966l-.03 7.06c0 .134.12.253.255.253h3.195a.262.262 0 0 0 .255-.253V3.892a.262.262 0 0 0-.255-.253Zm-28.31 7.313v8.532c0 .06-.015.163-.09.193 0 0-1.875 1.323-4.966 1.323C4.426 21 0 19.84 0 12.2S3.87 2.986 7.651 3c3.27 0 4.59.728 4.8.862.06.075.09.134.09.208l-.63 2.646c0 .134-.134.297-.3.253-.54-.164-1.35-.49-3.255-.49-2.205 0-4.575.623-4.575 5.543s2.25 5.5 3.87 5.5c1.38 0 1.875-.164 1.875-.164V13.94H7.321c-.165 0-.285-.12-.285-.253v-2.735c0-.134.12-.252.285-.252h5.61c.166 0 .286.118.286.252Z"></path>
+</svg>
+  <svg aria-hidden="true" height="24" viewBox="0 0 38 24" version="1.1" width="38" data-view-component="true" class="octicon octicon-logo-gist v-align-middle d-none d-md-inline-block">
+    <path d="M7.05 13.095v-1.5h5.28v8.535c-1.17.555-2.925.96-5.385.96C1.665 21.09 0 17.055 0 12.045S1.695 3 6.945 3c2.43 0 3.96.495 4.92.99v1.575c-1.83-.75-3-1.095-4.92-1.095-3.855 0-5.22 3.315-5.22 7.59s1.365 7.575 5.205 7.575c1.335 0 2.97-.105 3.795-.51v-6.03H7.05Zm16.47 1.035h.045c3.33.3 4.125 1.425 4.125 3.345 0 1.815-1.14 3.615-4.71 3.615-1.125 0-2.745-.285-3.495-.585v-1.41c.705.255 1.83.54 3.495.54 2.43 0 3.09-1.035 3.09-2.13 0-1.065-.33-1.815-2.655-2.01-3.39-.3-4.095-1.5-4.095-3.12 0-1.665 1.08-3.465 4.38-3.465 1.095 0 2.34.135 3.375.585v1.41c-.915-.3-1.83-.54-3.405-.54-2.325 0-2.82.855-2.82 2.01 0 1.035.42 1.56 2.67 1.755Zm12.87-4.995v1.275h-3.63v7.305c0 1.425.795 2.01 2.25 2.01.3 0 .63 0 .915-.045v1.335c-.255.045-.75.075-1.035.075-1.965 0-3.75-.9-3.75-3.195v-7.5H28.8v-.72l2.34-.66V5.85l1.62-.465v3.75h3.63ZM16.635 9.09v9.615c0 .81.285 1.05 1.005 1.05v1.335c-1.71 0-2.58-.705-2.58-2.58V9.09h1.575Zm.375-3.495c0 .66-.51 1.17-1.17 1.17a1.14 1.14 0 0 1-1.155-1.17c0-.66.48-1.17 1.155-1.17s1.17.51 1.17 1.17Z"></path>
+</svg>
+</a>
+
+
+  </div>
+
+    <div class="Header-item f4 mr-0" role="navigation" aria-label="Sign in or sign up">
+      <a class="Header-link no-underline mr-3" data-ga-click="Header, sign in" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;gist header&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://gist.github.com/discover&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="0278b089e881ea6f98d2ccdde163d896cb3d01ed943f7d31930a850d33e3e1a0" href="https://gist.github.com/auth/github?return_to=https%3A%2F%2Fgist.github.com%2Fdiscover">
+        Sign&nbsp;in
+</a>        <a class="Header-link d-inline-block no-underline border color-border-default rounded px-2 py-1" data-ga-click="Header, sign up" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;gist header&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://gist.github.com/discover&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2e1a08c04abe9542ccb7045aa69ba83a9fb34f0b34e08608752b36058a7e9b2a" href="/join?return_to=https%3A%2F%2Fgist.github.com%2Fdiscover&amp;source=header-gist">
+          Sign&nbsp;up
+</a>    </div>
+</div>
+
+
+
+      <div hidden="hidden" data-view-component="true" class="js-stale-session-flash stale-session-flash flash flash-warn flash-full">
+  
+        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+        <span class="js-stale-session-flash-signed-in" hidden>You signed in with another tab or window. <a class="Link--inTextBlock" href="">Reload</a> to refresh your session.</span>
+        <span class="js-stale-session-flash-signed-out" hidden>You signed out in another tab or window. <a class="Link--inTextBlock" href="">Reload</a> to refresh your session.</span>
+        <span class="js-stale-session-flash-switched" hidden>You switched accounts on another tab or window. <a class="Link--inTextBlock" href="">Reload</a> to refresh your session.</span>
+
+    <button id="icon-button-780d5382-2376-43fa-bb0c-494a86354365" aria-labelledby="tooltip-79d2f8ce-0ca6-4696-9f5c-bd73864b2094" type="button" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium flash-close js-flash-close">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x Button-visual">
+    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
+</svg>
+</button><tool-tip id="tooltip-79d2f8ce-0ca6-4696-9f5c-bd73864b2094" for="icon-button-780d5382-2376-43fa-bb0c-494a86354365" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Dismiss alert</tool-tip>
+
+
+  
+</div>
+    </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+
+
+
+
+
+
+
+    <div id="js-flash-container" class="flash-container" data-turbo-replace>
+
+
+
+
+  <template class="js-flash-template">
+    
+<div class="flash flash-full   {{ className }}">
+  <div >
+    <button autofocus class="flash-close js-flash-close" type="button" aria-label="Dismiss this message">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
+</svg>
+    </button>
+    <div aria-atomic="true" role="alert" class="js-flash-alert">
+      
+      <div>{{ message }}</div>
+
+    </div>
+  </div>
+</div>
+  </template>
+</div>
+
+
+    
+
+
+
+
+
+
+  <div
+    class="application-main "
+    data-commit-hovercards-enabled
+    data-discussion-hovercards-enabled
+    data-issue-and-pr-hovercards-enabled
+    data-project-hovercards-enabled
+  >
+        <div itemscope itemtype="http://schema.org/Code">
+    <main id="gist-pjax-container">
+      
+
+    <div class="gist-detail-intro gist-banner pb-3">
+    <div class="text-center container-lg px-3">
+      <p class="lead">
+        Instantly share code, notes, and snippets.
+      </p>
+    </div>
+  </div>
+
+
+  <div class="gisthead pagehead pb-0 pt-3 mb-4">
+  <div class="px-0">
+    
+    <div class="px-3">
+      <div class="mb-3 d-flex">
+        <h1 class="float-none flex-auto pl-0 width-fit">
+          <svg height="32" aria-hidden="true" viewBox="0 0 24 24" version="1.1" width="32" data-view-component="true" class="octicon octicon-code-square mt-0 position-static v-align-middle">
+    <path d="M10.3 8.24a.75.75 0 0 1-.04 1.06L7.352 12l2.908 2.7a.75.75 0 1 1-1.02 1.1l-3.5-3.25a.75.75 0 0 1 0-1.1l3.5-3.25a.75.75 0 0 1 1.06.04Zm3.44 1.06a.75.75 0 1 1 1.02-1.1l3.5 3.25a.75.75 0 0 1 0 1.1l-3.5 3.25a.75.75 0 1 1-1.02-1.1l2.908-2.7-2.908-2.7Z"></path><path d="M2 3.75C2 2.784 2.784 2 3.75 2h16.5c.966 0 1.75.784 1.75 1.75v16.5A1.75 1.75 0 0 1 20.25 22H3.75A1.75 1.75 0 0 1 2 20.25Zm1.75-.25a.25.25 0 0 0-.25.25v16.5c0 .138.112.25.25.25h16.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+          Discover gists
+        </h1>
+        <ul class="pagehead-actions float-none">
+          <li>
+<action-menu data-select-variant="single" data-dynamic-label="" data-dynamic-label-prefix="Sort" data-view-component="true">
+  <focus-group direction="vertical" mnemonics retain>
+    <button id="action-menu-4a2827f3-6216-49ca-93ad-1037db5e9c26-button" popovertarget="action-menu-4a2827f3-6216-49ca-93ad-1037db5e9c26-overlay" aria-controls="action-menu-4a2827f3-6216-49ca-93ad-1037db5e9c26-list" aria-haspopup="true" type="button" data-view-component="true" class="Button--secondary Button--small Button">  <span class="Button-content">
+    <span class="Button-label">Sort</span>
+  </span>
+    <span class="Button-visual Button-trailingAction">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-triangle-down">
+    <path d="m4.427 7.427 3.396 3.396a.25.25 0 0 0 .354 0l3.396-3.396A.25.25 0 0 0 11.396 7H4.604a.25.25 0 0 0-.177.427Z"></path>
+</svg>
+    </span>
+</button>
+
+
+<anchored-position data-target="action-menu.overlay" id="action-menu-4a2827f3-6216-49ca-93ad-1037db5e9c26-overlay" anchor="action-menu-4a2827f3-6216-49ca-93ad-1037db5e9c26-button" align="end" side="outside-bottom" anchor-offset="normal" popover="auto" data-view-component="true">
+  <div data-view-component="true" class="Overlay Overlay--size-auto">
+    
+      <div data-view-component="true" class="Overlay-body Overlay-body--paddingNone">          <action-list>
+  <div data-view-component="true">
+    <ul aria-labelledby="action-menu-4a2827f3-6216-49ca-93ad-1037db5e9c26-button" id="action-menu-4a2827f3-6216-49ca-93ad-1037db5e9c26-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">
+        <li data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
+    
+    
+    <a tabindex="-1" id="item-ce02ba89-8b6d-495c-a139-e6fc51427ddd" href="https://gist.github.com/discover?direction=desc&amp;sort=created" role="menuitemradio" aria-checked="true" data-view-component="true" class="ActionListContent">
+        <span class="ActionListItem-visual ActionListItem-action--leading">
+          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check ActionListItem-singleSelectCheckmark">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+        </span>
+      
+        <span data-view-component="true" class="ActionListItem-label">
+          Recently created
+</span>      
+</a>
+  
+</li>
+        <li data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
+    
+    
+    <a tabindex="-1" id="item-cc1750a0-bec4-4e9b-b969-82c28d291487" href="https://gist.github.com/discover?direction=asc&amp;sort=created" role="menuitemradio" aria-checked="false" data-view-component="true" class="ActionListContent">
+        <span class="ActionListItem-visual ActionListItem-action--leading">
+          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check ActionListItem-singleSelectCheckmark">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+        </span>
+      
+        <span data-view-component="true" class="ActionListItem-label">
+          Least recently created
+</span>      
+</a>
+  
+</li>
+        <li data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
+    
+    
+    <a tabindex="-1" id="item-0a4e3395-8014-4092-97e5-5111ea06795b" href="https://gist.github.com/discover?direction=desc&amp;sort=updated" role="menuitemradio" aria-checked="false" data-view-component="true" class="ActionListContent">
+        <span class="ActionListItem-visual ActionListItem-action--leading">
+          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check ActionListItem-singleSelectCheckmark">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+        </span>
+      
+        <span data-view-component="true" class="ActionListItem-label">
+          Recently updated
+</span>      
+</a>
+  
+</li>
+        <li data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
+    
+    
+    <a tabindex="-1" id="item-de6c356f-639f-4572-9746-fb5affa630af" href="https://gist.github.com/discover?direction=asc&amp;sort=updated" role="menuitemradio" aria-checked="false" data-view-component="true" class="ActionListContent">
+        <span class="ActionListItem-visual ActionListItem-action--leading">
+          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check ActionListItem-singleSelectCheckmark">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+        </span>
+      
+        <span data-view-component="true" class="ActionListItem-label">
+          Least recently updated
+</span>      
+</a>
+  
+</li>
+</ul>    
+</div></action-list>
+
+
+</div>
+      
+</div></anchored-position>  </focus-group>
+</action-menu></li>
+        </ul>
+      </div>
+
+      <nav aria-label="Gist tab" data-view-component="true" class="UnderlineNav">
+
+  <ul data-view-component="true" class="UnderlineNav-body list-style-none">
+      <li data-view-component="true" class="d-inline-flex">
+  <a href="/discover" aria-current="page" data-view-component="true" class="UnderlineNav-item">
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code-square UnderlineNav-octicon">
+    <path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25Zm7.47 3.97a.75.75 0 0 1 1.06 0l2 2a.75.75 0 0 1 0 1.06l-2 2a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L10.69 8 9.22 6.53a.75.75 0 0 1 0-1.06ZM6.78 6.53 5.31 8l1.47 1.47a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215l-2-2a.75.75 0 0 1 0-1.06l2-2a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"></path>
+</svg>
+      <span data-view-component="true">All gists</span>
+    
+</a></li>
+      <li data-view-component="true" class="d-inline-flex">
+  <a href="/forked" data-view-component="true" class="UnderlineNav-item">
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-git-branch UnderlineNav-octicon">
+    <path d="M9.5 3.25a2.25 2.25 0 1 1 3 2.122V6A2.5 2.5 0 0 1 10 8.5H6a1 1 0 0 0-1 1v1.128a2.251 2.251 0 1 1-1.5 0V5.372a2.25 2.25 0 1 1 1.5 0v1.836A2.493 2.493 0 0 1 6 7h4a1 1 0 0 0 1-1v-.628A2.25 2.25 0 0 1 9.5 3.25Zm-6 0a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Zm8.25-.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5ZM4.25 12a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Z"></path>
+</svg>
+      <span data-view-component="true">Forked</span>
+    
+</a></li>
+      <li data-view-component="true" class="d-inline-flex">
+  <a href="/starred" data-view-component="true" class="UnderlineNav-item">
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star UnderlineNav-octicon">
+    <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"></path>
+</svg>
+      <span data-view-component="true">Starred</span>
+    
+</a></li>
+</ul>
+    
+</nav>
+    </div>
+
+  </div>
+</div>
+
+  <div class="container-lg px-3">
+  <div class="repository-content gist-content" >
+    
+        
+    <div class="gist-snippet">
+      <div class="gist-snippet-meta d-flex flex-lg-row flex-column width-full">
+        <ul class="col-lg-5 col-12 flex-order-2 f6 mt-lg-0 mt-3 mb-lg-0 mb-2 d-flex flex-lg-justify-end">
+          <li class="d-inline-block mr-lg-3 mr-2">
+            <a class="Link--muted" href="/Nathishwar-prog/9add2c7bc40e8c43e8912c4dfb0f4b8e">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code-square">
+    <path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25Zm7.47 3.97a.75.75 0 0 1 1.06 0l2 2a.75.75 0 0 1 0 1.06l-2 2a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L10.69 8 9.22 6.53a.75.75 0 0 1 0-1.06ZM6.78 6.53 5.31 8l1.47 1.47a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215l-2-2a.75.75 0 0 1 0-1.06l2-2a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"></path>
+</svg>
+              1 file
+            </a>
+          </li>
+          <li class="d-inline-block mr-lg-3 mr-2">
+            <a class="Link--muted" href="/Nathishwar-prog/9add2c7bc40e8c43e8912c4dfb0f4b8e/forks">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked">
+    <path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"></path>
+</svg>
+              0 forks
+            </a>
+          </li>
+            <li class="d-inline-block mr-lg-3 mr-2">
+              <a class="Link--muted" href="/Nathishwar-prog/9add2c7bc40e8c43e8912c4dfb0f4b8e#comments">
+                <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-comment">
+    <path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+                0 comments
+              </a>
+            </li>
+          <li class="d-inline-block">
+            <a class="Link--muted" href="/Nathishwar-prog/9add2c7bc40e8c43e8912c4dfb0f4b8e/stargazers">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star">
+    <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"></path>
+</svg>
+              0 stars
+            </a>
+          </li>
+        </ul>
+        <div class="flex-order-1 col-lg-7 col-12 d-flex">
+          <div class="d-lg-inline-block d-none v-align-top mt-1">
+              <a class="d-inline-block" data-hovercard-type="user" data-hovercard-url="/users/Nathishwar-prog/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/Nathishwar-prog"><img class=" avatar-user" src="https://avatars.githubusercontent.com/u/182191081?s=60&amp;v=4" width="30" height="30" alt="@Nathishwar-prog" /></a>
+          </div>
+          <div class="d-inline-block px-lg-2 px-0">
+            <span>
+                <a data-hovercard-type="user" data-hovercard-url="/users/Nathishwar-prog/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/Nathishwar-prog">Nathishwar-prog</a>
+                / <a href="/Nathishwar-prog/9add2c7bc40e8c43e8912c4dfb0f4b8e"><strong class="css-truncate-target">hello-gist.js</strong></a>
+            </span>
+            <div class="color-fg-muted f6">
+              Created
+              <relative-time tense="past" datetime="2026-01-14T11:44:29Z" data-view-component="true">January 14, 2026 11:44</relative-time>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="js-gist-file-update-container js-task-list-container">
+  <div id="file-hello-gist-js" class="file my-2">
+    
+    <div itemprop="text"
+      class="Box-body p-0 blob-wrapper data type-javascript  gist-border-0"
+      style="overflow: auto" tabindex="0" role="region"
+      aria-label="hello-gist.js content, created by Nathishwar-prog on 11:44AM today."
+    >
+
+        
+<div class="js-check-hidden-unicode js-blob-code-container blob-code-content">
+
+  <template class="js-file-alert-template">
+  <div data-view-component="true" class="flash flash-warn flash-full d-flex flex-items-center">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+    <span>
+      This file contains hidden or bidirectional Unicode text that may be interpreted or compiled differently than what appears below. To review, open the file in an editor that reveals hidden Unicode characters.
+      <a class="Link--inTextBlock" href="https://github.co/hiddenchars" target="_blank">Learn more about bidirectional Unicode characters</a>
+    </span>
+
+
+  <div data-view-component="true" class="flash-action">        <a href="{{ revealButtonHref }}" data-view-component="true" class="btn-sm btn">    Show hidden characters
+</a>
+</div>
+</div></template>
+<template class="js-line-alert-template">
+  <span aria-label="This line has hidden Unicode characters" data-view-component="true" class="line-alert tooltipped tooltipped-e">
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+</span></template>
+
+  <table data-hpc class="highlight tab-size js-file-line-container" data-tab-size="4" data-paste-markdown-skip data-tagsearch-path="hello-gist.js">
+        <tr>
+          <td id="file-hello-gist-js-L1" class="blob-num js-line-number js-blob-rnum" data-line-number="1"></td>
+          <td id="file-hello-gist-js-LC1" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// hello-gist.js</span></td>
+        </tr>
+        <tr>
+          <td id="file-hello-gist-js-L2" class="blob-num js-line-number js-blob-rnum" data-line-number="2"></td>
+          <td id="file-hello-gist-js-LC2" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// Simple test Gist</span></td>
+        </tr>
+        <tr>
+          <td id="file-hello-gist-js-L3" class="blob-num js-line-number js-blob-rnum" data-line-number="3"></td>
+          <td id="file-hello-gist-js-LC3" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="file-hello-gist-js-L4" class="blob-num js-line-number js-blob-rnum" data-line-number="4"></td>
+          <td id="file-hello-gist-js-LC4" class="blob-code blob-code-inner js-file-line"><span class=pl-k>function</span> <span class=pl-en>greet</span><span class=pl-kos>(</span><span class=pl-s1>name</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
+        </tr>
+        <tr>
+          <td id="file-hello-gist-js-L5" class="blob-num js-line-number js-blob-rnum" data-line-number="5"></td>
+          <td id="file-hello-gist-js-LC5" class="blob-code blob-code-inner js-file-line">  <span class=pl-k>return</span> <span class=pl-s>`Hello, <span class=pl-s1><span class=pl-kos>${</span><span class=pl-s1>name</span><span class=pl-kos>}</span></span>! Welcome to GitHub Gists.`</span><span class=pl-kos>;</span></td>
+        </tr>
+        <tr>
+          <td id="file-hello-gist-js-L6" class="blob-num js-line-number js-blob-rnum" data-line-number="6"></td>
+          <td id="file-hello-gist-js-LC6" class="blob-code blob-code-inner js-file-line"><span class=pl-kos>}</span></td>
+        </tr>
+        <tr>
+          <td id="file-hello-gist-js-L7" class="blob-num js-line-number js-blob-rnum" data-line-number="7"></td>
+          <td id="file-hello-gist-js-LC7" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="file-hello-gist-js-L8" class="blob-num js-line-number js-blob-rnum" data-line-number="8"></td>
+          <td id="file-hello-gist-js-LC8" class="blob-code blob-code-inner js-file-line"><span class=pl-smi>console</span><span class=pl-kos>.</span><span class=pl-en>log</span><span class=pl-kos>(</span><span class=pl-en>greet</span><span class=pl-kos>(</span><span class=pl-s>&quot;Developer&quot;</span><span class=pl-kos>)</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
+        </tr>
+  </table>
+</div>
+
+
+    </div>
+
+  </div>
+</div>
+
+    </div>
+
+        
+    <div class="gist-snippet">
+      <div class="gist-snippet-meta d-flex flex-lg-row flex-column width-full">
+        <ul class="col-lg-5 col-12 flex-order-2 f6 mt-lg-0 mt-3 mb-lg-0 mb-2 d-flex flex-lg-justify-end">
+          <li class="d-inline-block mr-lg-3 mr-2">
+            <a class="Link--muted" href="/Jacobjp32/b6d455281465dd0bfc9211a2120cf7c5">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code-square">
+    <path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25Zm7.47 3.97a.75.75 0 0 1 1.06 0l2 2a.75.75 0 0 1 0 1.06l-2 2a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L10.69 8 9.22 6.53a.75.75 0 0 1 0-1.06ZM6.78 6.53 5.31 8l1.47 1.47a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215l-2-2a.75.75 0 0 1 0-1.06l2-2a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"></path>
+</svg>
+              1 file
+            </a>
+          </li>
+          <li class="d-inline-block mr-lg-3 mr-2">
+            <a class="Link--muted" href="/Jacobjp32/b6d455281465dd0bfc9211a2120cf7c5/forks">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked">
+    <path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"></path>
+</svg>
+              0 forks
+            </a>
+          </li>
+            <li class="d-inline-block mr-lg-3 mr-2">
+              <a class="Link--muted" href="/Jacobjp32/b6d455281465dd0bfc9211a2120cf7c5#comments">
+                <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-comment">
+    <path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+                0 comments
+              </a>
+            </li>
+          <li class="d-inline-block">
+            <a class="Link--muted" href="/Jacobjp32/b6d455281465dd0bfc9211a2120cf7c5/stargazers">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star">
+    <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"></path>
+</svg>
+              0 stars
+            </a>
+          </li>
+        </ul>
+        <div class="flex-order-1 col-lg-7 col-12 d-flex">
+          <div class="d-lg-inline-block d-none v-align-top mt-1">
+              <a class="d-inline-block" data-hovercard-type="user" data-hovercard-url="/users/Jacobjp32/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/Jacobjp32"><img class=" avatar-user" src="https://avatars.githubusercontent.com/u/211013509?s=60&amp;v=4" width="30" height="30" alt="@Jacobjp32" /></a>
+          </div>
+          <div class="d-inline-block px-lg-2 px-0">
+            <span>
+                <a data-hovercard-type="user" data-hovercard-url="/users/Jacobjp32/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/Jacobjp32">Jacobjp32</a>
+                / <a href="/Jacobjp32/b6d455281465dd0bfc9211a2120cf7c5"><strong class="css-truncate-target">gist:b6d455281465dd0bfc9211a2120cf7c5</strong></a>
+            </span>
+            <div class="color-fg-muted f6">
+              Created
+              <relative-time tense="past" datetime="2026-01-14T11:44:11Z" data-view-component="true">January 14, 2026 11:44</relative-time>
+            </div>
+              <span class="f6 color-fg-muted">
+                Turismo - Sms
+              </span>
+          </div>
+        </div>
+      </div>
+        <div class="js-gist-file-update-container js-task-list-container">
+  <div id="file-gistfile1-txt" class="file my-2">
+    
+    <div itemprop="text"
+      class="Box-body p-0 blob-wrapper data type-text  gist-border-0"
+      style="overflow: auto" tabindex="0" role="region"
+      aria-label="gistfile1.txt content, created by Jacobjp32 on 11:44AM today."
+    >
+
+        
+<div class="js-check-hidden-unicode js-blob-code-container blob-code-content">
+
+  <template class="js-file-alert-template">
+  <div data-view-component="true" class="flash flash-warn flash-full d-flex flex-items-center">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+    <span>
+      This file contains hidden or bidirectional Unicode text that may be interpreted or compiled differently than what appears below. To review, open the file in an editor that reveals hidden Unicode characters.
+      <a class="Link--inTextBlock" href="https://github.co/hiddenchars" target="_blank">Learn more about bidirectional Unicode characters</a>
+    </span>
+
+
+  <div data-view-component="true" class="flash-action">        <a href="{{ revealButtonHref }}" data-view-component="true" class="btn-sm btn">    Show hidden characters
+</a>
+</div>
+</div></template>
+<template class="js-line-alert-template">
+  <span aria-label="This line has hidden Unicode characters" data-view-component="true" class="line-alert tooltipped tooltipped-e">
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+</span></template>
+
+  <table data-hpc class="highlight tab-size js-file-line-container" data-tab-size="4" data-paste-markdown-skip data-tagsearch-path="gistfile1.txt">
+        <tr>
+          <td id="file-gistfile1-txt-L1" class="blob-num js-line-number js-blob-rnum" data-line-number="1"></td>
+          <td id="file-gistfile1-txt-LC1" class="blob-code blob-code-inner js-file-line">import { Toaster } from &quot;@/components/ui/sonner&quot;;</td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L2" class="blob-num js-line-number js-blob-rnum" data-line-number="2"></td>
+          <td id="file-gistfile1-txt-LC2" class="blob-code blob-code-inner js-file-line">import { TooltipProvider } from &quot;@/components/ui/tooltip&quot;;</td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L3" class="blob-num js-line-number js-blob-rnum" data-line-number="3"></td>
+          <td id="file-gistfile1-txt-LC3" class="blob-code blob-code-inner js-file-line">import NotFound from &quot;@/pages/NotFound&quot;;</td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L4" class="blob-num js-line-number js-blob-rnum" data-line-number="4"></td>
+          <td id="file-gistfile1-txt-LC4" class="blob-code blob-code-inner js-file-line">import { Route, Switch } from &quot;wouter&quot;;</td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L5" class="blob-num js-line-number js-blob-rnum" data-line-number="5"></td>
+          <td id="file-gistfile1-txt-LC5" class="blob-code blob-code-inner js-file-line">import ErrorBoundary from &quot;./components/ErrorBoundary&quot;;</td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L6" class="blob-num js-line-number js-blob-rnum" data-line-number="6"></td>
+          <td id="file-gistfile1-txt-LC6" class="blob-code blob-code-inner js-file-line">import { ThemeProvider } from &quot;./contexts/ThemeContext&quot;;</td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L7" class="blob-num js-line-number js-blob-rnum" data-line-number="7"></td>
+          <td id="file-gistfile1-txt-LC7" class="blob-code blob-code-inner js-file-line">import { LanguageProvider } from &quot;./contexts/LanguageContext&quot;;</td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L8" class="blob-num js-line-number js-blob-rnum" data-line-number="8"></td>
+          <td id="file-gistfile1-txt-LC8" class="blob-code blob-code-inner js-file-line">import Home from &quot;./pages/Home&quot;;</td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L9" class="blob-num js-line-number js-blob-rnum" data-line-number="9"></td>
+          <td id="file-gistfile1-txt-LC9" class="blob-code blob-code-inner js-file-line">import ExplorePage from &#39;@/pages/ExplorePage&#39;;</td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L10" class="blob-num js-line-number js-blob-rnum" data-line-number="10"></td>
+          <td id="file-gistfile1-txt-LC10" class="blob-code blob-code-inner js-file-line">import LocalidadesPage from &#39;@/pages/LocalidadesPage&#39;;</td>
+        </tr>
+  </table>
+</div>
+
+
+    </div>
+
+  </div>
+</div>
+
+    </div>
+
+        
+    <div class="gist-snippet">
+      <div class="gist-snippet-meta d-flex flex-lg-row flex-column width-full">
+        <ul class="col-lg-5 col-12 flex-order-2 f6 mt-lg-0 mt-3 mb-lg-0 mb-2 d-flex flex-lg-justify-end">
+          <li class="d-inline-block mr-lg-3 mr-2">
+            <a class="Link--muted" href="/tesla-newton/595b7160129abb791c4881b4873bcc23">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code-square">
+    <path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25Zm7.47 3.97a.75.75 0 0 1 1.06 0l2 2a.75.75 0 0 1 0 1.06l-2 2a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L10.69 8 9.22 6.53a.75.75 0 0 1 0-1.06ZM6.78 6.53 5.31 8l1.47 1.47a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215l-2-2a.75.75 0 0 1 0-1.06l2-2a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"></path>
+</svg>
+              1 file
+            </a>
+          </li>
+          <li class="d-inline-block mr-lg-3 mr-2">
+            <a class="Link--muted" href="/tesla-newton/595b7160129abb791c4881b4873bcc23/forks">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked">
+    <path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"></path>
+</svg>
+              0 forks
+            </a>
+          </li>
+            <li class="d-inline-block mr-lg-3 mr-2">
+              <a class="Link--muted" href="/tesla-newton/595b7160129abb791c4881b4873bcc23#comments">
+                <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-comment">
+    <path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+                0 comments
+              </a>
+            </li>
+          <li class="d-inline-block">
+            <a class="Link--muted" href="/tesla-newton/595b7160129abb791c4881b4873bcc23/stargazers">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star">
+    <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"></path>
+</svg>
+              0 stars
+            </a>
+          </li>
+        </ul>
+        <div class="flex-order-1 col-lg-7 col-12 d-flex">
+          <div class="d-lg-inline-block d-none v-align-top mt-1">
+              <a class="d-inline-block" data-hovercard-type="user" data-hovercard-url="/users/tesla-newton/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/tesla-newton"><img class=" avatar-user" src="https://avatars.githubusercontent.com/u/122919702?s=60&amp;v=4" width="30" height="30" alt="@tesla-newton" /></a>
+          </div>
+          <div class="d-inline-block px-lg-2 px-0">
+            <span>
+                <a data-hovercard-type="user" data-hovercard-url="/users/tesla-newton/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/tesla-newton">tesla-newton</a>
+                / <a href="/tesla-newton/595b7160129abb791c4881b4873bcc23"><strong class="css-truncate-target">vurnerability.md</strong></a>
+            </span>
+            <div class="color-fg-muted f6">
+              Created
+              <relative-time tense="past" datetime="2026-01-14T11:43:41Z" data-view-component="true">January 14, 2026 11:43</relative-time>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="js-gist-file-update-container js-task-list-container">
+  <div id="file-vurnerability-md" class="file my-2">
+      <div id="file-vurnerability-md-readme" class="Box-body readme blob p-5 p-xl-6 gist-border-0"
+    style="overflow: auto" tabindex="0" role="region"
+    aria-label="vurnerability.md content, created by tesla-newton on 11:43AM today."
+  >
+    <article class="markdown-body entry-content container-lg" itemprop="text"><markdown-accessiblity-table><table>
+<thead>
+<tr>
+<th>Vulnerability</th>
+<th>Root Cause</th>
+<th>Prevention</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Logic errors</td>
+<td>Wrong assumptions</td>
+<td>Strict checks &amp; audits</td>
+</tr>
+<tr>
+<td>Bridges</td>
+<td>Trust complexity</td>
+<td>Limit exposure</td>
+</tr>
+<tr>
+<td>Oracles</td>
+<td>Bad data</td>
+<td>Aggregation &amp; safeguards</td>
+</tr>
+<tr>
+<td>Wallet drainers</td>
+<td>Human error</td>
+<td>UX &amp; education</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+</article>
+  </div>
+
+  </div>
+</div>
+
+    </div>
+
+        
+    <div class="gist-snippet">
+      <div class="gist-snippet-meta d-flex flex-lg-row flex-column width-full">
+        <ul class="col-lg-5 col-12 flex-order-2 f6 mt-lg-0 mt-3 mb-lg-0 mb-2 d-flex flex-lg-justify-end">
+          <li class="d-inline-block mr-lg-3 mr-2">
+            <a class="Link--muted" href="/GVLTodorov/921c1170a59eff0e5a2c5f34aa18a67b">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code-square">
+    <path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25Zm7.47 3.97a.75.75 0 0 1 1.06 0l2 2a.75.75 0 0 1 0 1.06l-2 2a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L10.69 8 9.22 6.53a.75.75 0 0 1 0-1.06ZM6.78 6.53 5.31 8l1.47 1.47a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215l-2-2a.75.75 0 0 1 0-1.06l2-2a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"></path>
+</svg>
+              1 file
+            </a>
+          </li>
+          <li class="d-inline-block mr-lg-3 mr-2">
+            <a class="Link--muted" href="/GVLTodorov/921c1170a59eff0e5a2c5f34aa18a67b/forks">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked">
+    <path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"></path>
+</svg>
+              0 forks
+            </a>
+          </li>
+            <li class="d-inline-block mr-lg-3 mr-2">
+              <a class="Link--muted" href="/GVLTodorov/921c1170a59eff0e5a2c5f34aa18a67b#comments">
+                <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-comment">
+    <path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+                0 comments
+              </a>
+            </li>
+          <li class="d-inline-block">
+            <a class="Link--muted" href="/GVLTodorov/921c1170a59eff0e5a2c5f34aa18a67b/stargazers">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star">
+    <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"></path>
+</svg>
+              0 stars
+            </a>
+          </li>
+        </ul>
+        <div class="flex-order-1 col-lg-7 col-12 d-flex">
+          <div class="d-lg-inline-block d-none v-align-top mt-1">
+              <a class="d-inline-block" data-hovercard-type="user" data-hovercard-url="/users/GVLTodorov/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/GVLTodorov"><img class=" avatar-user" src="https://avatars.githubusercontent.com/u/51453974?s=60&amp;v=4" width="30" height="30" alt="@GVLTodorov" /></a>
+          </div>
+          <div class="d-inline-block px-lg-2 px-0">
+            <span>
+                <a data-hovercard-type="user" data-hovercard-url="/users/GVLTodorov/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/GVLTodorov">GVLTodorov</a>
+                / <a href="/GVLTodorov/921c1170a59eff0e5a2c5f34aa18a67b"><strong class="css-truncate-target">gist:921c1170a59eff0e5a2c5f34aa18a67b</strong></a>
+            </span>
+            <div class="color-fg-muted f6">
+              Created
+              <relative-time tense="past" datetime="2026-01-14T11:43:18Z" data-view-component="true">January 14, 2026 11:43</relative-time>
+            </div>
+              <span class="f6 color-fg-muted">
+                Group CCF
+              </span>
+          </div>
+        </div>
+      </div>
+        <div class="js-gist-file-update-container js-task-list-container">
+  <div id="file-gistfile1-txt" class="file my-2">
+    
+    <div itemprop="text"
+      class="Box-body p-0 blob-wrapper data type-text  gist-border-0"
+      style="overflow: auto" tabindex="0" role="region"
+      aria-label="gistfile1.txt content, created by GVLTodorov on 11:43AM today."
+    >
+
+        
+<div class="js-check-hidden-unicode js-blob-code-container blob-code-content">
+
+  <template class="js-file-alert-template">
+  <div data-view-component="true" class="flash flash-warn flash-full d-flex flex-items-center">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+    <span>
+      This file contains hidden or bidirectional Unicode text that may be interpreted or compiled differently than what appears below. To review, open the file in an editor that reveals hidden Unicode characters.
+      <a class="Link--inTextBlock" href="https://github.co/hiddenchars" target="_blank">Learn more about bidirectional Unicode characters</a>
+    </span>
+
+
+  <div data-view-component="true" class="flash-action">        <a href="{{ revealButtonHref }}" data-view-component="true" class="btn-sm btn">    Show hidden characters
+</a>
+</div>
+</div></template>
+<template class="js-line-alert-template">
+  <span aria-label="This line has hidden Unicode characters" data-view-component="true" class="line-alert tooltipped tooltipped-e">
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+</span></template>
+
+  <table data-hpc class="highlight tab-size js-file-line-container" data-tab-size="4" data-paste-markdown-skip data-tagsearch-path="gistfile1.txt">
+        <tr>
+          <td id="file-gistfile1-txt-L1" class="blob-num js-line-number js-blob-rnum" data-line-number="1"></td>
+          <td id="file-gistfile1-txt-LC1" class="blob-code blob-code-inner js-file-line"># Backend Architecture &amp; Development Specification</td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L2" class="blob-num js-line-number js-blob-rnum" data-line-number="2"></td>
+          <td id="file-gistfile1-txt-LC2" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L3" class="blob-num js-line-number js-blob-rnum" data-line-number="3"></td>
+          <td id="file-gistfile1-txt-LC3" class="blob-code blob-code-inner js-file-line">## 1. Introduction &amp; Scope</td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L4" class="blob-num js-line-number js-blob-rnum" data-line-number="4"></td>
+          <td id="file-gistfile1-txt-LC4" class="blob-code blob-code-inner js-file-line">This document describes the backend architecture, design principles, and implementation approach for the platform.  </td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L5" class="blob-num js-line-number js-blob-rnum" data-line-number="5"></td>
+          <td id="file-gistfile1-txt-LC5" class="blob-code blob-code-inner js-file-line">The backend is designed to support multiple client applications through a Backend-for-Frontend (BFF) layer and integrates with internal microservices, databases, messaging infrastructure, and external partner systems.</td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L6" class="blob-num js-line-number js-blob-rnum" data-line-number="6"></td>
+          <td id="file-gistfile1-txt-LC6" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L7" class="blob-num js-line-number js-blob-rnum" data-line-number="7"></td>
+          <td id="file-gistfile1-txt-LC7" class="blob-code blob-code-inner js-file-line">### Goals</td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L8" class="blob-num js-line-number js-blob-rnum" data-line-number="8"></td>
+          <td id="file-gistfile1-txt-LC8" class="blob-code blob-code-inner js-file-line">- Scalability and high availability</td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L9" class="blob-num js-line-number js-blob-rnum" data-line-number="9"></td>
+          <td id="file-gistfile1-txt-LC9" class="blob-code blob-code-inner js-file-line">- Strong security and compliance</td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L10" class="blob-num js-line-number js-blob-rnum" data-line-number="10"></td>
+          <td id="file-gistfile1-txt-LC10" class="blob-code blob-code-inner js-file-line">- Clear separation of concerns</td>
+        </tr>
+  </table>
+</div>
+
+
+    </div>
+
+  </div>
+</div>
+
+    </div>
+
+        
+    <div class="gist-snippet">
+      <div class="gist-snippet-meta d-flex flex-lg-row flex-column width-full">
+        <ul class="col-lg-5 col-12 flex-order-2 f6 mt-lg-0 mt-3 mb-lg-0 mb-2 d-flex flex-lg-justify-end">
+          <li class="d-inline-block mr-lg-3 mr-2">
+            <a class="Link--muted" href="/spynika/71f872b75b46c82260a8c483baf6b8a3">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code-square">
+    <path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25Zm7.47 3.97a.75.75 0 0 1 1.06 0l2 2a.75.75 0 0 1 0 1.06l-2 2a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L10.69 8 9.22 6.53a.75.75 0 0 1 0-1.06ZM6.78 6.53 5.31 8l1.47 1.47a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215l-2-2a.75.75 0 0 1 0-1.06l2-2a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"></path>
+</svg>
+              1 file
+            </a>
+          </li>
+          <li class="d-inline-block mr-lg-3 mr-2">
+            <a class="Link--muted" href="/spynika/71f872b75b46c82260a8c483baf6b8a3/forks">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked">
+    <path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"></path>
+</svg>
+              0 forks
+            </a>
+          </li>
+            <li class="d-inline-block mr-lg-3 mr-2">
+              <a class="Link--muted" href="/spynika/71f872b75b46c82260a8c483baf6b8a3#comments">
+                <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-comment">
+    <path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+                0 comments
+              </a>
+            </li>
+          <li class="d-inline-block">
+            <a class="Link--muted" href="/spynika/71f872b75b46c82260a8c483baf6b8a3/stargazers">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star">
+    <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"></path>
+</svg>
+              0 stars
+            </a>
+          </li>
+        </ul>
+        <div class="flex-order-1 col-lg-7 col-12 d-flex">
+          <div class="d-lg-inline-block d-none v-align-top mt-1">
+              <a class="d-inline-block" data-hovercard-type="user" data-hovercard-url="/users/spynika/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/spynika"><img class=" avatar-user" src="https://avatars.githubusercontent.com/u/177629253?s=60&amp;v=4" width="30" height="30" alt="@spynika" /></a>
+          </div>
+          <div class="d-inline-block px-lg-2 px-0">
+            <span>
+                <a data-hovercard-type="user" data-hovercard-url="/users/spynika/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/spynika">spynika</a>
+                / <a href="/spynika/71f872b75b46c82260a8c483baf6b8a3"><strong class="css-truncate-target">over4.rb</strong></a>
+            </span>
+            <div class="color-fg-muted f6">
+              Created
+              <relative-time tense="past" datetime="2026-01-14T11:43:07Z" data-view-component="true">January 14, 2026 11:43</relative-time>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="js-gist-file-update-container js-task-list-container">
+  <div id="file-over4-rb" class="file my-2">
+    
+    <div itemprop="text"
+      class="Box-body p-0 blob-wrapper data type-ruby  gist-border-0"
+      style="overflow: auto" tabindex="0" role="region"
+      aria-label="over4.rb content, created by spynika on 11:43AM today."
+    >
+
+        
+<div class="js-check-hidden-unicode js-blob-code-container blob-code-content">
+
+  <template class="js-file-alert-template">
+  <div data-view-component="true" class="flash flash-warn flash-full d-flex flex-items-center">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+    <span>
+      This file contains hidden or bidirectional Unicode text that may be interpreted or compiled differently than what appears below. To review, open the file in an editor that reveals hidden Unicode characters.
+      <a class="Link--inTextBlock" href="https://github.co/hiddenchars" target="_blank">Learn more about bidirectional Unicode characters</a>
+    </span>
+
+
+  <div data-view-component="true" class="flash-action">        <a href="{{ revealButtonHref }}" data-view-component="true" class="btn-sm btn">    Show hidden characters
+</a>
+</div>
+</div></template>
+<template class="js-line-alert-template">
+  <span aria-label="This line has hidden Unicode characters" data-view-component="true" class="line-alert tooltipped tooltipped-e">
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+</span></template>
+
+  <table data-hpc class="highlight tab-size js-file-line-container" data-tab-size="4" data-paste-markdown-skip data-tagsearch-path="over4.rb">
+        <tr>
+          <td id="file-over4-rb-L1" class="blob-num js-line-number js-blob-rnum" data-line-number="1"></td>
+          <td id="file-over4-rb-LC1" class="blob-code blob-code-inner js-file-line"><span class=pl-c>##</span></td>
+        </tr>
+        <tr>
+          <td id="file-over4-rb-L2" class="blob-num js-line-number js-blob-rnum" data-line-number="2"></td>
+          <td id="file-over4-rb-LC2" class="blob-code blob-code-inner js-file-line"><span class=pl-c># This module requires Metasploit: http://metasploit.com/download</span></td>
+        </tr>
+        <tr>
+          <td id="file-over4-rb-L3" class="blob-num js-line-number js-blob-rnum" data-line-number="3"></td>
+          <td id="file-over4-rb-LC3" class="blob-code blob-code-inner js-file-line"><span class=pl-c># Current source: https://github.com/rapid7/metasploit-framework</span></td>
+        </tr>
+        <tr>
+          <td id="file-over4-rb-L4" class="blob-num js-line-number js-blob-rnum" data-line-number="4"></td>
+          <td id="file-over4-rb-LC4" class="blob-code blob-code-inner js-file-line"><span class=pl-c>##</span></td>
+        </tr>
+        <tr>
+          <td id="file-over4-rb-L5" class="blob-num js-line-number js-blob-rnum" data-line-number="5"></td>
+          <td id="file-over4-rb-LC5" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="file-over4-rb-L6" class="blob-num js-line-number js-blob-rnum" data-line-number="6"></td>
+          <td id="file-over4-rb-LC6" class="blob-code blob-code-inner js-file-line"><span class=pl-en>require</span> <span class=pl-s>&quot;msf/core&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="file-over4-rb-L7" class="blob-num js-line-number js-blob-rnum" data-line-number="7"></td>
+          <td id="file-over4-rb-LC7" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="file-over4-rb-L8" class="blob-num js-line-number js-blob-rnum" data-line-number="8"></td>
+          <td id="file-over4-rb-LC8" class="blob-code blob-code-inner js-file-line"><span class=pl-k>class</span> <span class=pl-v>MetasploitModule</span> &lt; <span class=pl-v>Msf</span>::<span class=pl-v>Exploit</span>::<span class=pl-v>Local</span></td>
+        </tr>
+        <tr>
+          <td id="file-over4-rb-L9" class="blob-num js-line-number js-blob-rnum" data-line-number="9"></td>
+          <td id="file-over4-rb-LC9" class="blob-code blob-code-inner js-file-line">  <span class=pl-v>Rank</span> <span class=pl-c1>=</span> <span class=pl-v>GoodRanking</span></td>
+        </tr>
+  </table>
+</div>
+
+
+    </div>
+
+  </div>
+</div>
+
+    </div>
+
+        
+    <div class="gist-snippet">
+      <div class="gist-snippet-meta d-flex flex-lg-row flex-column width-full">
+        <ul class="col-lg-5 col-12 flex-order-2 f6 mt-lg-0 mt-3 mb-lg-0 mb-2 d-flex flex-lg-justify-end">
+          <li class="d-inline-block mr-lg-3 mr-2">
+            <a class="Link--muted" href="/HugsLibRecordKeeper/486207400e4a76de6a6399d2edc7dad3">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code-square">
+    <path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25Zm7.47 3.97a.75.75 0 0 1 1.06 0l2 2a.75.75 0 0 1 0 1.06l-2 2a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L10.69 8 9.22 6.53a.75.75 0 0 1 0-1.06ZM6.78 6.53 5.31 8l1.47 1.47a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215l-2-2a.75.75 0 0 1 0-1.06l2-2a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"></path>
+</svg>
+              1 file
+            </a>
+          </li>
+          <li class="d-inline-block mr-lg-3 mr-2">
+            <a class="Link--muted" href="/HugsLibRecordKeeper/486207400e4a76de6a6399d2edc7dad3/forks">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked">
+    <path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"></path>
+</svg>
+              0 forks
+            </a>
+          </li>
+            <li class="d-inline-block mr-lg-3 mr-2">
+              <a class="Link--muted" href="/HugsLibRecordKeeper/486207400e4a76de6a6399d2edc7dad3#comments">
+                <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-comment">
+    <path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+                0 comments
+              </a>
+            </li>
+          <li class="d-inline-block">
+            <a class="Link--muted" href="/HugsLibRecordKeeper/486207400e4a76de6a6399d2edc7dad3/stargazers">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star">
+    <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"></path>
+</svg>
+              0 stars
+            </a>
+          </li>
+        </ul>
+        <div class="flex-order-1 col-lg-7 col-12 d-flex">
+          <div class="d-lg-inline-block d-none v-align-top mt-1">
+              <a class="d-inline-block" data-hovercard-type="user" data-hovercard-url="/users/HugsLibRecordKeeper/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/HugsLibRecordKeeper"><img class=" avatar-user" src="https://avatars.githubusercontent.com/u/23506375?s=60&amp;v=4" width="30" height="30" alt="@HugsLibRecordKeeper" /></a>
+          </div>
+          <div class="d-inline-block px-lg-2 px-0">
+            <span>
+                <a data-hovercard-type="user" data-hovercard-url="/users/HugsLibRecordKeeper/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/HugsLibRecordKeeper">HugsLibRecordKeeper</a>
+                / <a href="/HugsLibRecordKeeper/486207400e4a76de6a6399d2edc7dad3"><strong class="css-truncate-target">output_log.txt</strong></a>
+            </span>
+            <div class="color-fg-muted f6">
+              Created
+              <relative-time tense="past" datetime="2026-01-14T11:43:01Z" data-view-component="true">January 14, 2026 11:43</relative-time>
+            </div>
+              <span class="f6 color-fg-muted">
+                Rimworld output log published using HugsLib
+              </span>
+          </div>
+        </div>
+      </div>
+        <div class="js-gist-file-update-container js-task-list-container">
+  <div id="file-output_log-txt" class="file my-2">
+        <div class="render-notice">
+      This file has been truncated, but you can <a class="Link--inTextBlock" href="https://gist.github.com/HugsLibRecordKeeper/486207400e4a76de6a6399d2edc7dad3/raw/5a6b5414cc513df2da770d73cd9fd0deaff290e2/output_log.txt">view the full file</a>.
+    </div>
+
+    <div itemprop="text"
+      class="Box-body p-0 blob-wrapper data type-text  gist-border-0"
+      style="overflow: auto" tabindex="0" role="region"
+      aria-label="output_log.txt content, created by HugsLibRecordKeeper on 11:43AM today."
+    >
+
+        
+<div class="js-check-hidden-unicode js-blob-code-container blob-code-content">
+
+  <template class="js-file-alert-template">
+  <div data-view-component="true" class="flash flash-warn flash-full d-flex flex-items-center">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+    <span>
+      This file contains hidden or bidirectional Unicode text that may be interpreted or compiled differently than what appears below. To review, open the file in an editor that reveals hidden Unicode characters.
+      <a class="Link--inTextBlock" href="https://github.co/hiddenchars" target="_blank">Learn more about bidirectional Unicode characters</a>
+    </span>
+
+
+  <div data-view-component="true" class="flash-action">        <a href="{{ revealButtonHref }}" data-view-component="true" class="btn-sm btn">    Show hidden characters
+</a>
+</div>
+</div></template>
+<template class="js-line-alert-template">
+  <span aria-label="This line has hidden Unicode characters" data-view-component="true" class="line-alert tooltipped tooltipped-e">
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+</span></template>
+
+  <table data-hpc class="highlight tab-size js-file-line-container" data-tab-size="4" data-paste-markdown-skip data-tagsearch-path="output_log.txt">
+        <tr>
+          <td id="file-output_log-txt-L1" class="blob-num js-line-number js-blob-rnum" data-line-number="1"></td>
+          <td id="file-output_log-txt-LC1" class="blob-code blob-code-inner js-file-line">Log uploaded on Wednesday, January 14, 2026, 8:42:49 PM</td>
+        </tr>
+        <tr>
+          <td id="file-output_log-txt-L2" class="blob-num js-line-number js-blob-rnum" data-line-number="2"></td>
+          <td id="file-output_log-txt-LC2" class="blob-code blob-code-inner js-file-line">Loaded mods:</td>
+        </tr>
+        <tr>
+          <td id="file-output_log-txt-L3" class="blob-num js-line-number js-blob-rnum" data-line-number="3"></td>
+          <td id="file-output_log-txt-LC3" class="blob-code blob-code-inner js-file-line">Harmony(brrainz.harmony)[mv:2.4.2.0]: 0Harmony(2.4.1), HarmonyMod(2.4.2)</td>
+        </tr>
+        <tr>
+          <td id="file-output_log-txt-L4" class="blob-num js-line-number js-blob-rnum" data-line-number="4"></td>
+          <td id="file-output_log-txt-LC4" class="blob-code blob-code-inner js-file-line">Core(Ludeon.RimWorld): (no assemblies)</td>
+        </tr>
+        <tr>
+          <td id="file-output_log-txt-L5" class="blob-num js-line-number js-blob-rnum" data-line-number="5"></td>
+          <td id="file-output_log-txt-LC5" class="blob-code blob-code-inner js-file-line">Royalty(Ludeon.RimWorld.Royalty): (no assemblies)</td>
+        </tr>
+        <tr>
+          <td id="file-output_log-txt-L6" class="blob-num js-line-number js-blob-rnum" data-line-number="6"></td>
+          <td id="file-output_log-txt-LC6" class="blob-code blob-code-inner js-file-line">Ideology(Ludeon.RimWorld.Ideology): (no assemblies)</td>
+        </tr>
+        <tr>
+          <td id="file-output_log-txt-L7" class="blob-num js-line-number js-blob-rnum" data-line-number="7"></td>
+          <td id="file-output_log-txt-LC7" class="blob-code blob-code-inner js-file-line">Biotech(Ludeon.RimWorld.Biotech): (no assemblies)</td>
+        </tr>
+        <tr>
+          <td id="file-output_log-txt-L8" class="blob-num js-line-number js-blob-rnum" data-line-number="8"></td>
+          <td id="file-output_log-txt-LC8" class="blob-code blob-code-inner js-file-line">Anomaly(Ludeon.RimWorld.Anomaly): (no assemblies)</td>
+        </tr>
+        <tr>
+          <td id="file-output_log-txt-L9" class="blob-num js-line-number js-blob-rnum" data-line-number="9"></td>
+          <td id="file-output_log-txt-LC9" class="blob-code blob-code-inner js-file-line">Odyssey(Ludeon.RimWorld.Odyssey): (no assemblies)</td>
+        </tr>
+  </table>
+</div>
+
+
+    </div>
+
+  </div>
+</div>
+
+    </div>
+
+        
+    <div class="gist-snippet">
+      <div class="gist-snippet-meta d-flex flex-lg-row flex-column width-full">
+        <ul class="col-lg-5 col-12 flex-order-2 f6 mt-lg-0 mt-3 mb-lg-0 mb-2 d-flex flex-lg-justify-end">
+          <li class="d-inline-block mr-lg-3 mr-2">
+            <a class="Link--muted" href="/Penicillinr/850ca1734cd1ffca86154d4ddafab70c">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code-square">
+    <path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25Zm7.47 3.97a.75.75 0 0 1 1.06 0l2 2a.75.75 0 0 1 0 1.06l-2 2a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L10.69 8 9.22 6.53a.75.75 0 0 1 0-1.06ZM6.78 6.53 5.31 8l1.47 1.47a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215l-2-2a.75.75 0 0 1 0-1.06l2-2a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"></path>
+</svg>
+              1 file
+            </a>
+          </li>
+          <li class="d-inline-block mr-lg-3 mr-2">
+            <a class="Link--muted" href="/Penicillinr/850ca1734cd1ffca86154d4ddafab70c/forks">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked">
+    <path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"></path>
+</svg>
+              0 forks
+            </a>
+          </li>
+            <li class="d-inline-block mr-lg-3 mr-2">
+              <a class="Link--muted" href="/Penicillinr/850ca1734cd1ffca86154d4ddafab70c#comments">
+                <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-comment">
+    <path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+                0 comments
+              </a>
+            </li>
+          <li class="d-inline-block">
+            <a class="Link--muted" href="/Penicillinr/850ca1734cd1ffca86154d4ddafab70c/stargazers">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star">
+    <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"></path>
+</svg>
+              0 stars
+            </a>
+          </li>
+        </ul>
+        <div class="flex-order-1 col-lg-7 col-12 d-flex">
+          <div class="d-lg-inline-block d-none v-align-top mt-1">
+              <a class="d-inline-block" data-hovercard-type="user" data-hovercard-url="/users/Penicillinr/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/Penicillinr"><img class=" avatar-user" src="https://avatars.githubusercontent.com/u/214133305?s=60&amp;v=4" width="30" height="30" alt="@Penicillinr" /></a>
+          </div>
+          <div class="d-inline-block px-lg-2 px-0">
+            <span>
+                <a data-hovercard-type="user" data-hovercard-url="/users/Penicillinr/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/Penicillinr">Penicillinr</a>
+                / <a href="/Penicillinr/850ca1734cd1ffca86154d4ddafab70c"><strong class="css-truncate-target">gist:850ca1734cd1ffca86154d4ddafab70c</strong></a>
+            </span>
+            <div class="color-fg-muted f6">
+              Created
+              <relative-time tense="past" datetime="2026-01-14T11:42:47Z" data-view-component="true">January 14, 2026 11:42</relative-time>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="js-gist-file-update-container js-task-list-container">
+  <div id="file-gistfile1-txt" class="file my-2">
+    
+    <div itemprop="text"
+      class="Box-body p-0 blob-wrapper data type-text  gist-border-0"
+      style="overflow: auto" tabindex="0" role="region"
+      aria-label="gistfile1.txt content, created by Penicillinr on 11:42AM today."
+    >
+
+        
+<div class="js-check-hidden-unicode js-blob-code-container blob-code-content">
+
+  <template class="js-file-alert-template">
+  <div data-view-component="true" class="flash flash-warn flash-full d-flex flex-items-center">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+    <span>
+      This file contains hidden or bidirectional Unicode text that may be interpreted or compiled differently than what appears below. To review, open the file in an editor that reveals hidden Unicode characters.
+      <a class="Link--inTextBlock" href="https://github.co/hiddenchars" target="_blank">Learn more about bidirectional Unicode characters</a>
+    </span>
+
+
+  <div data-view-component="true" class="flash-action">        <a href="{{ revealButtonHref }}" data-view-component="true" class="btn-sm btn">    Show hidden characters
+</a>
+</div>
+</div></template>
+<template class="js-line-alert-template">
+  <span aria-label="This line has hidden Unicode characters" data-view-component="true" class="line-alert tooltipped tooltipped-e">
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+</span></template>
+
+  <table data-hpc class="highlight tab-size js-file-line-container" data-tab-size="4" data-paste-markdown-skip data-tagsearch-path="gistfile1.txt">
+        <tr>
+          <td id="file-gistfile1-txt-L1" class="blob-num js-line-number js-blob-rnum" data-line-number="1"></td>
+          <td id="file-gistfile1-txt-LC1" class="blob-code blob-code-inner js-file-line">{</td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L2" class="blob-num js-line-number js-blob-rnum" data-line-number="2"></td>
+          <td id="file-gistfile1-txt-LC2" class="blob-code blob-code-inner js-file-line">    &quot;inputs&quot;: {</td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L3" class="blob-num js-line-number js-blob-rnum" data-line-number="3"></td>
+          <td id="file-gistfile1-txt-LC3" class="blob-code blob-code-inner js-file-line">        &quot;host&quot;: {</td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L4" class="blob-num js-line-number js-blob-rnum" data-line-number="4"></td>
+          <td id="file-gistfile1-txt-LC4" class="blob-code blob-code-inner js-file-line">            &quot;connectionName&quot;: &quot;shared_powerbi-1&quot;,</td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L5" class="blob-num js-line-number js-blob-rnum" data-line-number="5"></td>
+          <td id="file-gistfile1-txt-LC5" class="blob-code blob-code-inner js-file-line">            &quot;operationId&quot;: &quot;ExecuteDatasetQuery&quot;,</td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L6" class="blob-num js-line-number js-blob-rnum" data-line-number="6"></td>
+          <td id="file-gistfile1-txt-LC6" class="blob-code blob-code-inner js-file-line">            &quot;apiId&quot;: &quot;/providers/Microsoft.PowerApps/apis/shared_powerbi&quot;</td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L7" class="blob-num js-line-number js-blob-rnum" data-line-number="7"></td>
+          <td id="file-gistfile1-txt-LC7" class="blob-code blob-code-inner js-file-line">        },</td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L8" class="blob-num js-line-number js-blob-rnum" data-line-number="8"></td>
+          <td id="file-gistfile1-txt-LC8" class="blob-code blob-code-inner js-file-line">        &quot;parameters&quot;: {</td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L9" class="blob-num js-line-number js-blob-rnum" data-line-number="9"></td>
+          <td id="file-gistfile1-txt-LC9" class="blob-code blob-code-inner js-file-line">            &quot;groupid&quot;: &quot;myworkspace&quot;,</td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L10" class="blob-num js-line-number js-blob-rnum" data-line-number="10"></td>
+          <td id="file-gistfile1-txt-LC10" class="blob-code blob-code-inner js-file-line">            &quot;datasetid&quot;: &quot;fb5e0e58-30a3-4884-88f3-03454d4e6d0f&quot;,</td>
+        </tr>
+  </table>
+</div>
+
+
+    </div>
+
+  </div>
+</div>
+
+    </div>
+
+        
+    <div class="gist-snippet">
+      <div class="gist-snippet-meta d-flex flex-lg-row flex-column width-full">
+        <ul class="col-lg-5 col-12 flex-order-2 f6 mt-lg-0 mt-3 mb-lg-0 mb-2 d-flex flex-lg-justify-end">
+          <li class="d-inline-block mr-lg-3 mr-2">
+            <a class="Link--muted" href="/wiktormasui-blip/61a91def58a0090e0f74a03328debf38">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code-square">
+    <path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25Zm7.47 3.97a.75.75 0 0 1 1.06 0l2 2a.75.75 0 0 1 0 1.06l-2 2a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L10.69 8 9.22 6.53a.75.75 0 0 1 0-1.06ZM6.78 6.53 5.31 8l1.47 1.47a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215l-2-2a.75.75 0 0 1 0-1.06l2-2a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"></path>
+</svg>
+              1 file
+            </a>
+          </li>
+          <li class="d-inline-block mr-lg-3 mr-2">
+            <a class="Link--muted" href="/wiktormasui-blip/61a91def58a0090e0f74a03328debf38/forks">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked">
+    <path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"></path>
+</svg>
+              0 forks
+            </a>
+          </li>
+            <li class="d-inline-block mr-lg-3 mr-2">
+              <a class="Link--muted" href="/wiktormasui-blip/61a91def58a0090e0f74a03328debf38#comments">
+                <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-comment">
+    <path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+                0 comments
+              </a>
+            </li>
+          <li class="d-inline-block">
+            <a class="Link--muted" href="/wiktormasui-blip/61a91def58a0090e0f74a03328debf38/stargazers">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star">
+    <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"></path>
+</svg>
+              0 stars
+            </a>
+          </li>
+        </ul>
+        <div class="flex-order-1 col-lg-7 col-12 d-flex">
+          <div class="d-lg-inline-block d-none v-align-top mt-1">
+              <a class="d-inline-block" data-hovercard-type="user" data-hovercard-url="/users/wiktormasui-blip/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/wiktormasui-blip"><img class=" avatar-user" src="https://avatars.githubusercontent.com/u/249354524?s=60&amp;v=4" width="30" height="30" alt="@wiktormasui-blip" /></a>
+          </div>
+          <div class="d-inline-block px-lg-2 px-0">
+            <span>
+                <a data-hovercard-type="user" data-hovercard-url="/users/wiktormasui-blip/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/wiktormasui-blip">wiktormasui-blip</a>
+                / <a href="/wiktormasui-blip/61a91def58a0090e0f74a03328debf38"><strong class="css-truncate-target">content_3vqkay.txt</strong></a>
+            </span>
+            <div class="color-fg-muted f6">
+              Created
+              <relative-time tense="past" datetime="2026-01-14T11:42:34Z" data-view-component="true">January 14, 2026 11:42</relative-time>
+            </div>
+              <span class="f6 color-fg-muted">
+                Golden Miner Gist - 2rhchbu6
+              </span>
+          </div>
+        </div>
+      </div>
+        <div class="js-gist-file-update-container js-task-list-container">
+  <div id="file-content_3vqkay-txt" class="file my-2">
+    
+    <div itemprop="text"
+      class="Box-body p-0 blob-wrapper data type-text  gist-border-0"
+      style="overflow: auto" tabindex="0" role="region"
+      aria-label="content_3vqkay.txt content, created by wiktormasui-blip on 11:42AM today."
+    >
+
+        
+<div class="js-check-hidden-unicode js-blob-code-container blob-code-content">
+
+  <template class="js-file-alert-template">
+  <div data-view-component="true" class="flash flash-warn flash-full d-flex flex-items-center">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+    <span>
+      This file contains hidden or bidirectional Unicode text that may be interpreted or compiled differently than what appears below. To review, open the file in an editor that reveals hidden Unicode characters.
+      <a class="Link--inTextBlock" href="https://github.co/hiddenchars" target="_blank">Learn more about bidirectional Unicode characters</a>
+    </span>
+
+
+  <div data-view-component="true" class="flash-action">        <a href="{{ revealButtonHref }}" data-view-component="true" class="btn-sm btn">    Show hidden characters
+</a>
+</div>
+</div></template>
+<template class="js-line-alert-template">
+  <span aria-label="This line has hidden Unicode characters" data-view-component="true" class="line-alert tooltipped tooltipped-e">
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+</span></template>
+
+  <table data-hpc class="highlight tab-size js-file-line-container" data-tab-size="4" data-paste-markdown-skip data-tagsearch-path="content_3vqkay.txt">
+        <tr>
+          <td id="file-content_3vqkay-txt-L1" class="blob-num js-line-number js-blob-rnum" data-line-number="1"></td>
+          <td id="file-content_3vqkay-txt-LC1" class="blob-code blob-code-inner js-file-line">This post will be updated with relevant content shortly.</td>
+        </tr>
+  </table>
+</div>
+
+
+    </div>
+
+  </div>
+</div>
+
+    </div>
+
+        
+    <div class="gist-snippet">
+      <div class="gist-snippet-meta d-flex flex-lg-row flex-column width-full">
+        <ul class="col-lg-5 col-12 flex-order-2 f6 mt-lg-0 mt-3 mb-lg-0 mb-2 d-flex flex-lg-justify-end">
+          <li class="d-inline-block mr-lg-3 mr-2">
+            <a class="Link--muted" href="/manojdeveloper7860/177eb33c3234b8b8f5e121535a689ed3">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code-square">
+    <path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25Zm7.47 3.97a.75.75 0 0 1 1.06 0l2 2a.75.75 0 0 1 0 1.06l-2 2a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L10.69 8 9.22 6.53a.75.75 0 0 1 0-1.06ZM6.78 6.53 5.31 8l1.47 1.47a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215l-2-2a.75.75 0 0 1 0-1.06l2-2a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"></path>
+</svg>
+              1 file
+            </a>
+          </li>
+          <li class="d-inline-block mr-lg-3 mr-2">
+            <a class="Link--muted" href="/manojdeveloper7860/177eb33c3234b8b8f5e121535a689ed3/forks">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked">
+    <path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"></path>
+</svg>
+              0 forks
+            </a>
+          </li>
+            <li class="d-inline-block mr-lg-3 mr-2">
+              <a class="Link--muted" href="/manojdeveloper7860/177eb33c3234b8b8f5e121535a689ed3#comments">
+                <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-comment">
+    <path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+                0 comments
+              </a>
+            </li>
+          <li class="d-inline-block">
+            <a class="Link--muted" href="/manojdeveloper7860/177eb33c3234b8b8f5e121535a689ed3/stargazers">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star">
+    <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"></path>
+</svg>
+              0 stars
+            </a>
+          </li>
+        </ul>
+        <div class="flex-order-1 col-lg-7 col-12 d-flex">
+          <div class="d-lg-inline-block d-none v-align-top mt-1">
+              <a class="d-inline-block" data-hovercard-type="user" data-hovercard-url="/users/manojdeveloper7860/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/manojdeveloper7860"><img class=" avatar-user" src="https://avatars.githubusercontent.com/u/254892231?s=60&amp;v=4" width="30" height="30" alt="@manojdeveloper7860" /></a>
+          </div>
+          <div class="d-inline-block px-lg-2 px-0">
+            <span>
+                <a data-hovercard-type="user" data-hovercard-url="/users/manojdeveloper7860/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/manojdeveloper7860">manojdeveloper7860</a>
+                / <a href="/manojdeveloper7860/177eb33c3234b8b8f5e121535a689ed3"><strong class="css-truncate-target">gist:177eb33c3234b8b8f5e121535a689ed3</strong></a>
+            </span>
+            <div class="color-fg-muted f6">
+              Created
+              <relative-time tense="past" datetime="2026-01-14T11:42:09Z" data-view-component="true">January 14, 2026 11:42</relative-time>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="js-gist-file-update-container js-task-list-container">
+  <div id="file-gistfile1-txt" class="file my-2">
+    
+    <div itemprop="text"
+      class="Box-body p-0 blob-wrapper data type-text  gist-border-0"
+      style="overflow: auto" tabindex="0" role="region"
+      aria-label="gistfile1.txt content, created by manojdeveloper7860 on 11:42AM today."
+    >
+
+        
+<div class="js-check-hidden-unicode js-blob-code-container blob-code-content">
+
+  <template class="js-file-alert-template">
+  <div data-view-component="true" class="flash flash-warn flash-full d-flex flex-items-center">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+    <span>
+      This file contains hidden or bidirectional Unicode text that may be interpreted or compiled differently than what appears below. To review, open the file in an editor that reveals hidden Unicode characters.
+      <a class="Link--inTextBlock" href="https://github.co/hiddenchars" target="_blank">Learn more about bidirectional Unicode characters</a>
+    </span>
+
+
+  <div data-view-component="true" class="flash-action">        <a href="{{ revealButtonHref }}" data-view-component="true" class="btn-sm btn">    Show hidden characters
+</a>
+</div>
+</div></template>
+<template class="js-line-alert-template">
+  <span aria-label="This line has hidden Unicode characters" data-view-component="true" class="line-alert tooltipped tooltipped-e">
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+</span></template>
+
+  <table data-hpc class="highlight tab-size js-file-line-container" data-tab-size="4" data-paste-markdown-skip data-tagsearch-path="gistfile1.txt">
+        <tr>
+          <td id="file-gistfile1-txt-L1" class="blob-num js-line-number js-blob-rnum" data-line-number="1"></td>
+          <td id="file-gistfile1-txt-LC1" class="blob-code blob-code-inner js-file-line">&lt;!DOCTYPE html&gt;</td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L2" class="blob-num js-line-number js-blob-rnum" data-line-number="2"></td>
+          <td id="file-gistfile1-txt-LC2" class="blob-code blob-code-inner js-file-line">&lt;html lang=&quot;en&quot;&gt;</td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L3" class="blob-num js-line-number js-blob-rnum" data-line-number="3"></td>
+          <td id="file-gistfile1-txt-LC3" class="blob-code blob-code-inner js-file-line">&lt;head&gt;</td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L4" class="blob-num js-line-number js-blob-rnum" data-line-number="4"></td>
+          <td id="file-gistfile1-txt-LC4" class="blob-code blob-code-inner js-file-line">    &lt;meta charset=&quot;UTF-8&quot;&gt;</td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L5" class="blob-num js-line-number js-blob-rnum" data-line-number="5"></td>
+          <td id="file-gistfile1-txt-LC5" class="blob-code blob-code-inner js-file-line">    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;</td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L6" class="blob-num js-line-number js-blob-rnum" data-line-number="6"></td>
+          <td id="file-gistfile1-txt-LC6" class="blob-code blob-code-inner js-file-line">    &lt;title&gt;RTO Dashboard - Manoj Coding Boot Camp&lt;/title&gt;</td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L7" class="blob-num js-line-number js-blob-rnum" data-line-number="7"></td>
+          <td id="file-gistfile1-txt-LC7" class="blob-code blob-code-inner js-file-line">    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css&quot;&gt;</td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L8" class="blob-num js-line-number js-blob-rnum" data-line-number="8"></td>
+          <td id="file-gistfile1-txt-LC8" class="blob-code blob-code-inner js-file-line">    &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;</td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L9" class="blob-num js-line-number js-blob-rnum" data-line-number="9"></td>
+          <td id="file-gistfile1-txt-LC9" class="blob-code blob-code-inner js-file-line">    &lt;style&gt;</td>
+        </tr>
+        <tr>
+          <td id="file-gistfile1-txt-L10" class="blob-num js-line-number js-blob-rnum" data-line-number="10"></td>
+          <td id="file-gistfile1-txt-LC10" class="blob-code blob-code-inner js-file-line">        * {</td>
+        </tr>
+  </table>
+</div>
+
+
+    </div>
+
+  </div>
+</div>
+
+    </div>
+
+        
+    <div class="gist-snippet">
+      <div class="gist-snippet-meta d-flex flex-lg-row flex-column width-full">
+        <ul class="col-lg-5 col-12 flex-order-2 f6 mt-lg-0 mt-3 mb-lg-0 mb-2 d-flex flex-lg-justify-end">
+          <li class="d-inline-block mr-lg-3 mr-2">
+            <a class="Link--muted" href="/HugsLibRecordKeeper/52a5ad1d4e340a39cb3d80479c61f712">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code-square">
+    <path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25Zm7.47 3.97a.75.75 0 0 1 1.06 0l2 2a.75.75 0 0 1 0 1.06l-2 2a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L10.69 8 9.22 6.53a.75.75 0 0 1 0-1.06ZM6.78 6.53 5.31 8l1.47 1.47a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215l-2-2a.75.75 0 0 1 0-1.06l2-2a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"></path>
+</svg>
+              1 file
+            </a>
+          </li>
+          <li class="d-inline-block mr-lg-3 mr-2">
+            <a class="Link--muted" href="/HugsLibRecordKeeper/52a5ad1d4e340a39cb3d80479c61f712/forks">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked">
+    <path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"></path>
+</svg>
+              0 forks
+            </a>
+          </li>
+            <li class="d-inline-block mr-lg-3 mr-2">
+              <a class="Link--muted" href="/HugsLibRecordKeeper/52a5ad1d4e340a39cb3d80479c61f712#comments">
+                <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-comment">
+    <path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+                0 comments
+              </a>
+            </li>
+          <li class="d-inline-block">
+            <a class="Link--muted" href="/HugsLibRecordKeeper/52a5ad1d4e340a39cb3d80479c61f712/stargazers">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star">
+    <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"></path>
+</svg>
+              0 stars
+            </a>
+          </li>
+        </ul>
+        <div class="flex-order-1 col-lg-7 col-12 d-flex">
+          <div class="d-lg-inline-block d-none v-align-top mt-1">
+              <a class="d-inline-block" data-hovercard-type="user" data-hovercard-url="/users/HugsLibRecordKeeper/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/HugsLibRecordKeeper"><img class=" avatar-user" src="https://avatars.githubusercontent.com/u/23506375?s=60&amp;v=4" width="30" height="30" alt="@HugsLibRecordKeeper" /></a>
+          </div>
+          <div class="d-inline-block px-lg-2 px-0">
+            <span>
+                <a data-hovercard-type="user" data-hovercard-url="/users/HugsLibRecordKeeper/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/HugsLibRecordKeeper">HugsLibRecordKeeper</a>
+                / <a href="/HugsLibRecordKeeper/52a5ad1d4e340a39cb3d80479c61f712"><strong class="css-truncate-target">output_log.txt</strong></a>
+            </span>
+            <div class="color-fg-muted f6">
+              Created
+              <relative-time tense="past" datetime="2026-01-14T11:42:05Z" data-view-component="true">January 14, 2026 11:42</relative-time>
+            </div>
+              <span class="f6 color-fg-muted">
+                Rimworld output log published using HugsLib
+              </span>
+          </div>
+        </div>
+      </div>
+        <div class="js-gist-file-update-container js-task-list-container">
+  <div id="file-output_log-txt" class="file my-2">
+    
+    <div itemprop="text"
+      class="Box-body p-0 blob-wrapper data type-text  gist-border-0"
+      style="overflow: auto" tabindex="0" role="region"
+      aria-label="output_log.txt content, created by HugsLibRecordKeeper on 11:42AM today."
+    >
+
+        
+<div class="js-check-hidden-unicode js-blob-code-container blob-code-content">
+
+  <template class="js-file-alert-template">
+  <div data-view-component="true" class="flash flash-warn flash-full d-flex flex-items-center">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+    <span>
+      This file contains hidden or bidirectional Unicode text that may be interpreted or compiled differently than what appears below. To review, open the file in an editor that reveals hidden Unicode characters.
+      <a class="Link--inTextBlock" href="https://github.co/hiddenchars" target="_blank">Learn more about bidirectional Unicode characters</a>
+    </span>
+
+
+  <div data-view-component="true" class="flash-action">        <a href="{{ revealButtonHref }}" data-view-component="true" class="btn-sm btn">    Show hidden characters
+</a>
+</div>
+</div></template>
+<template class="js-line-alert-template">
+  <span aria-label="This line has hidden Unicode characters" data-view-component="true" class="line-alert tooltipped tooltipped-e">
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+</span></template>
+
+  <table data-hpc class="highlight tab-size js-file-line-container" data-tab-size="4" data-paste-markdown-skip data-tagsearch-path="output_log.txt">
+        <tr>
+          <td id="file-output_log-txt-L1" class="blob-num js-line-number js-blob-rnum" data-line-number="1"></td>
+          <td id="file-output_log-txt-LC1" class="blob-code blob-code-inner js-file-line">Log uploaded on Wednesday, January 14, 2026, 7:42:03 PM</td>
+        </tr>
+        <tr>
+          <td id="file-output_log-txt-L2" class="blob-num js-line-number js-blob-rnum" data-line-number="2"></td>
+          <td id="file-output_log-txt-LC2" class="blob-code blob-code-inner js-file-line">Loaded mods:</td>
+        </tr>
+        <tr>
+          <td id="file-output_log-txt-L3" class="blob-num js-line-number js-blob-rnum" data-line-number="3"></td>
+          <td id="file-output_log-txt-LC3" class="blob-code blob-code-inner js-file-line">Harmony(brrainz.harmony)[mv:2.4.2.0]: 0Harmony(2.4.1), HarmonyMod(2.4.2)</td>
+        </tr>
+        <tr>
+          <td id="file-output_log-txt-L4" class="blob-num js-line-number js-blob-rnum" data-line-number="4"></td>
+          <td id="file-output_log-txt-LC4" class="blob-code blob-code-inner js-file-line">Core(Ludeon.RimWorld): (no assemblies)</td>
+        </tr>
+        <tr>
+          <td id="file-output_log-txt-L5" class="blob-num js-line-number js-blob-rnum" data-line-number="5"></td>
+          <td id="file-output_log-txt-LC5" class="blob-code blob-code-inner js-file-line">Royalty(Ludeon.RimWorld.Royalty): (no assemblies)</td>
+        </tr>
+        <tr>
+          <td id="file-output_log-txt-L6" class="blob-num js-line-number js-blob-rnum" data-line-number="6"></td>
+          <td id="file-output_log-txt-LC6" class="blob-code blob-code-inner js-file-line">Ideology(Ludeon.RimWorld.Ideology): (no assemblies)</td>
+        </tr>
+        <tr>
+          <td id="file-output_log-txt-L7" class="blob-num js-line-number js-blob-rnum" data-line-number="7"></td>
+          <td id="file-output_log-txt-LC7" class="blob-code blob-code-inner js-file-line">Biotech(Ludeon.RimWorld.Biotech): (no assemblies)</td>
+        </tr>
+        <tr>
+          <td id="file-output_log-txt-L8" class="blob-num js-line-number js-blob-rnum" data-line-number="8"></td>
+          <td id="file-output_log-txt-LC8" class="blob-code blob-code-inner js-file-line">Anomaly(Ludeon.RimWorld.Anomaly): (no assemblies)</td>
+        </tr>
+        <tr>
+          <td id="file-output_log-txt-L9" class="blob-num js-line-number js-blob-rnum" data-line-number="9"></td>
+          <td id="file-output_log-txt-LC9" class="blob-code blob-code-inner js-file-line">Odyssey(Ludeon.RimWorld.Odyssey): (no assemblies)</td>
+        </tr>
+        <tr>
+          <td id="file-output_log-txt-L10" class="blob-num js-line-number js-blob-rnum" data-line-number="10"></td>
+          <td id="file-output_log-txt-LC10" class="blob-code blob-code-inner js-file-line">HugsLib(UnlimitedHugs.HugsLib)[ov:12.0.1]: 0Harmony(av:2.4.1,fv:1.2.0.1), HugsLib(av:1.0.0,fv:11.0.5)</td>
+        </tr>
+  </table>
+</div>
+
+
+    </div>
+
+  </div>
+</div>
+
+    </div>
+
+
+      <div class="paginate-container">
+        <div class="pagination"><span class="disabled color-fg-muted">Newer</span><a rel="nofollow" href="https://gist.github.com/discover?page=2">Older</a></div>
+      </div>
+
+  </div>
+</div><!-- /.container -->
+
+    </main>
+  </div>
+
+  </div>
+
+          <footer class="footer pt-7 pb-6 f6 color-fg-muted color-border-subtle p-responsive" role="contentinfo" >
+  <h2 class='sr-only'>Footer</h2>
+
+  
+
+
+  <div class="d-flex flex-justify-center flex-items-center flex-column-reverse flex-lg-row flex-wrap flex-lg-nowrap">
+    <div class="d-flex flex-items-center flex-shrink-0 mx-2">
+      <a aria-label="GitHub Homepage" class="footer-octicon mr-2" href="https://github.com">
+        <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-mark-github">
+    <path d="M12 1C5.923 1 1 5.923 1 12c0 4.867 3.149 8.979 7.521 10.436.55.096.756-.233.756-.522 0-.262-.013-1.128-.013-2.049-2.764.509-3.479-.674-3.699-1.292-.124-.317-.66-1.293-1.127-1.554-.385-.207-.936-.715-.014-.729.866-.014 1.485.797 1.691 1.128.99 1.663 2.571 1.196 3.204.907.096-.715.385-1.196.701-1.471-2.448-.275-5.005-1.224-5.005-5.432 0-1.196.426-2.186 1.128-2.956-.111-.275-.496-1.402.11-2.915 0 0 .921-.288 3.024 1.128a10.193 10.193 0 0 1 2.75-.371c.936 0 1.871.123 2.75.371 2.104-1.43 3.025-1.128 3.025-1.128.605 1.513.221 2.64.111 2.915.701.77 1.127 1.747 1.127 2.956 0 4.222-2.571 5.157-5.019 5.432.399.344.743 1.004.743 2.035 0 1.471-.014 2.654-.014 3.025 0 .289.206.632.756.522C19.851 20.979 23 16.854 23 12c0-6.077-4.922-11-11-11Z"></path>
+</svg>
+</a>
+      <span>
+        &copy; 2026 GitHub,&nbsp;Inc.
+      </span>
+    </div>
+
+    <nav aria-label="Footer">
+      <h3 class="sr-only" id="sr-footer-heading">Footer navigation</h3>
+
+      <ul class="list-style-none d-flex flex-justify-center flex-wrap mb-2 mb-lg-0" aria-labelledby="sr-footer-heading">
+
+          <li class="mx-2">
+            <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Terms&quot;,&quot;label&quot;:&quot;text:terms&quot;}" href="https://docs.github.com/site-policy/github-terms/github-terms-of-service" data-view-component="true" class="Link--secondary Link">Terms</a>
+          </li>
+
+          <li class="mx-2">
+            <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to privacy&quot;,&quot;label&quot;:&quot;text:privacy&quot;}" href="https://docs.github.com/site-policy/privacy-policies/github-privacy-statement" data-view-component="true" class="Link--secondary Link">Privacy</a>
+          </li>
+
+          <li class="mx-2">
+            <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to security&quot;,&quot;label&quot;:&quot;text:security&quot;}" href="https://github.com/security" data-view-component="true" class="Link--secondary Link">Security</a>
+          </li>
+
+          <li class="mx-2">
+            <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to status&quot;,&quot;label&quot;:&quot;text:status&quot;}" href="https://www.githubstatus.com/" data-view-component="true" class="Link--secondary Link">Status</a>
+          </li>
+
+          <li class="mx-2">
+            <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to community&quot;,&quot;label&quot;:&quot;text:community&quot;}" href="https://github.community/" data-view-component="true" class="Link--secondary Link">Community</a>
+          </li>
+
+          <li class="mx-2">
+            <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to docs&quot;,&quot;label&quot;:&quot;text:docs&quot;}" href="https://docs.github.com/" data-view-component="true" class="Link--secondary Link">Docs</a>
+          </li>
+
+          <li class="mx-2">
+            <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to contact&quot;,&quot;label&quot;:&quot;text:contact&quot;}" href="https://support.github.com?tags=dotcom-footer" data-view-component="true" class="Link--secondary Link">Contact</a>
+          </li>
+
+          <li class="mx-2" >
+  <cookie-consent-link>
+    <button
+      type="button"
+      class="Link--secondary underline-on-hover border-0 p-0 color-bg-transparent"
+      data-action="click:cookie-consent-link#showConsentManagement"
+      data-analytics-event="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;cookies&quot;,&quot;context&quot;:&quot;subfooter&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;cookies_link_subfooter_footer&quot;}"
+    >
+       Manage cookies
+    </button>
+  </cookie-consent-link>
+</li>
+
+<li class="mx-2">
+  <cookie-consent-link>
+    <button
+      type="button"
+      class="Link--secondary underline-on-hover border-0 p-0 color-bg-transparent text-left"
+      data-action="click:cookie-consent-link#showConsentManagement"
+      data-analytics-event="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;dont_share_info&quot;,&quot;context&quot;:&quot;subfooter&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;dont_share_info_link_subfooter_footer&quot;}"
+    >
+      Do not share my personal information
+    </button>
+  </cookie-consent-link>
+</li>
+
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+
+
+    <ghcc-consent id="ghcc" class="position-fixed bottom-0 left-0" style="z-index: 999999"
+      data-locale="en"
+      data-initial-cookie-consent-allowed=""
+      data-cookie-consent-required="false"
+    ></ghcc-consent>
+
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error" hidden>
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
+</svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+    <template id="site-details-dialog">
+  <details class="details-reset details-overlay details-overlay-dark lh-default color-fg-default hx_rsm" open>
+    <summary role="button" aria-label="Close dialog"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast hx_rsm-dialog hx_rsm-modal">
+      <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>
+        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
+</svg>
+      </button>
+      <div class="octocat-spinner my-6 js-details-dialog-spinner"></div>
+    </details-dialog>
+  </details>
+</template>
+
+    <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box color-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+    <template id="snippet-clipboard-copy-button">
+  <div class="zeroclipboard-container position-absolute right-0 top-0">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn js-clipboard-copy m-2 p-0" data-copy-feedback="Copied!" data-tooltip-direction="w">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon m-2">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none m-2">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div>
+</template>
+<template id="snippet-clipboard-copy-button-unpositioned">
+  <div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div>
+</template>
+
+
+
+
+    </div>
+    <div id="js-global-screen-reader-notice" class="sr-only mt-n1" aria-live="polite" aria-atomic="true" ></div>
+    <div id="js-global-screen-reader-notice-assertive" class="sr-only mt-n1" aria-live="assertive" aria-atomic="true"></div>
+  </body>
+</html>
+
